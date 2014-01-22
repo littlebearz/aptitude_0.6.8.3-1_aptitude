@@ -609,22 +609,19 @@ msgstr[0] "删除 %d 个包"
 #, c-format
 msgid "%d keep"
 msgid_plural "%d keeps"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "留下 %d 个包"
 
 #: src/broken_indicator.cc:409
 #, c-format
 msgid "%d upgrade"
 msgid_plural "%d upgrades"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "升级 %d 个包"
 
 #: src/broken_indicator.cc:419
 #, c-format
 msgid "%d downgrade"
 msgid_plural "%d downgrades"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "降级 %d 个包"
 
 #. ForTranslators: %F is replaced with a comma separated list such as
 #. "n1 installs, n2 removals", ...
@@ -632,17 +629,17 @@ msgstr[1] ""
 #: src/broken_indicator.cc:430
 #, c-format
 msgid "Suggest %F"
-msgstr ""
+msgstr "建议 %F"
 
 #: src/cmdline/cmdline_action.cc:55
 #, c-format
 msgid "Unable to find the source package for \"%s\".\n"
-msgstr ""
+msgstr "找不到“%s”的源代码包。\n"
 
 #: src/cmdline/cmdline_action.cc:212
 #, c-format
 msgid "Unable to satisfy the build-depends: %s.\n"
-msgstr ""
+msgstr "无法满足编译依赖：%s。\n"
 
 #: src/cmdline/cmdline_action.cc:249
 #, c-format
@@ -650,6 +647,8 @@ msgid ""
 "Note: \"%s\", providing the virtual package\n"
 "      \"%s\", is already installed.\n"
 msgstr ""
+"注意：“%s”，提供虚拟软件包\n"
+"      “%s”，已经被安装好了。\n"
 
 #: src/cmdline/cmdline_action.cc:256
 #, c-format
@@ -657,6 +656,8 @@ msgid ""
 "Note: \"%s\", providing the virtual package\n"
 "      \"%s\", is already going to be installed.\n"
 msgstr ""
+"注意：“%s”，提供虚拟软件包\n"
+"      “%s”，已经即将被安装。\n"
 
 #: src/cmdline/cmdline_action.cc:278
 #, c-format
@@ -664,76 +665,78 @@ msgid ""
 "\"%s\" exists in the package database, but it is not a\n"
 "real package and no package provides it.\n"
 msgstr ""
+"“%s”已经存在软件包数据库中，但是它不是一个真实的软件\n"
+"包，而且没有其它软件包提供该软件包。\n"
 
 #: src/cmdline/cmdline_action.cc:286
 #, c-format
 msgid "\"%s\" is a virtual package provided by:\n"
-msgstr ""
+msgstr "“%s”是一个虚拟软件包，提供者：\n"
 
 #: src/cmdline/cmdline_action.cc:289
 #, c-format
 msgid "You must choose one to install.\n"
-msgstr ""
+msgstr "您必须选择一个来安装。\n"
 
 #: src/cmdline/cmdline_action.cc:297
 #, c-format
 msgid ""
 "Note: selecting \"%s\" instead of the\n"
 "      virtual package \"%s\"\n"
-msgstr ""
+msgstr "注意：选择 “%s” 中，代替 “%s” 虚拟软件包\n"
 
 #: src/cmdline/cmdline_action.cc:318
 #, c-format
 msgid "%s is already installed at the requested version (%s)\n"
-msgstr ""
+msgstr "%s 的 (%s) 版本已经按要求安装了\n"
 
 #: src/cmdline/cmdline_action.cc:328
 #, c-format
 msgid "%s is not currently installed, so it will not be upgraded.\n"
-msgstr ""
+msgstr "%s 目前未被安装，所以它不会被升级。\n"
 
 #: src/cmdline/cmdline_action.cc:332
 #, c-format
 msgid ""
 "%s is already installed at the latest version, so it will not be upgraded.\n"
-msgstr ""
+msgstr "%s 已经安装了最新版本，所以不会升级。\n"
 
 #: src/cmdline/cmdline_action.cc:338
 #, c-format
 msgid "%s is not currently installed, so it will not be reinstalled.\n"
-msgstr ""
+msgstr "%s 目前未被安装，所以它不会被重新安装。\n"
 
 #: src/cmdline/cmdline_action.cc:346 src/cmdline/cmdline_action.cc:353
 #, c-format
 msgid "Package %s is not installed, so it will not be removed\n"
-msgstr ""
+msgstr "软件包 %s 并未安装，所以不会被删除\n"
 
 #: src/cmdline/cmdline_action.cc:372
 #, c-format
 msgid "Package %s is not installed, cannot forbid an upgrade\n"
-msgstr ""
+msgstr "软件包 %s 并未安装，不能禁止升级\n"
 
 #: src/cmdline/cmdline_action.cc:375
 #, c-format
 msgid "Package %s is not upgradable, cannot forbid an upgrade\n"
-msgstr ""
+msgstr "软件包 %s 是不可升级的，不能设为禁止升级\n"
 
 #: src/cmdline/cmdline_action.cc:480
 #, c-format
 msgid "Note: selecting the task \"%s: %s\" for installation\n"
-msgstr ""
+msgstr "注意：选择软件集 “%s：%s” 来安装\n"
 
 #: src/cmdline/cmdline_action.cc:510
 #, c-format
 msgid ""
 "You can only specify a package version with an 'install' command or a "
 "'forbid-version' command.\n"
-msgstr ""
+msgstr "您只能在 “install” 或 “forbid-version” 命令中指定一个软件包的版本。\n"
 
 #: src/cmdline/cmdline_action.cc:519
 #, c-format
 msgid "You can only specify a package archive with an 'install' command.\n"
-msgstr ""
+msgstr "在 “install” 命令中您只能指定一个软件包的存档\n"
 
 #: src/cmdline/cmdline_action.cc:557
 #, c-format
@@ -741,6 +744,8 @@ msgid ""
 "Couldn't find package \"%s\", and more than 40\n"
 "packages contain \"%s\" in their name.\n"
 msgstr ""
+"无法找到软件包 “%s”，同时有超过40个软件包名称\n"
+"中包含 “%s”。\n"
 
 #: src/cmdline/cmdline_action.cc:560
 #, c-format
@@ -748,11 +753,13 @@ msgid ""
 "Couldn't find package \"%s\".  However, the following\n"
 "packages contain \"%s\" in their name:\n"
 msgstr ""
+"无法找到软件包 “%s”。然而下列软件包名称中\n"
+"包含 “%s”。\n"
 
 #: src/cmdline/cmdline_action.cc:582
 #, c-format
 msgid "Couldn't find any package whose name or description matched \"%s\"\n"
-msgstr ""
+msgstr "无法找到任何名称或者描述中匹配 “%s”的软件包\n"
 
 #: src/cmdline/cmdline_action.cc:584
 #, c-format
@@ -760,6 +767,8 @@ msgid ""
 "Couldn't find any package matching \"%s\", and more than 40\n"
 "packages contain \"%s\" in their description.\n"
 msgstr ""
+"无法找到任何软件包匹配 “%s”，同时有超过40个软件包\n"
+"其描述中包含 “%s”。\n"
 
 #: src/cmdline/cmdline_action.cc:587
 #, c-format
@@ -767,47 +776,49 @@ msgid ""
 "Couldn't find any package matching \"%s\".  However, the following\n"
 "packages contain \"%s\" in their description:\n"
 msgstr ""
+"无法找到任何软件包匹配 “%s”。不过在安装包的描述中找到\n"
+"包含 “%s” 的描述：\n"
 
 #: src/cmdline/cmdline_action.cc:729
 #, c-format
 msgid "Bad action character '%c'\n"
-msgstr ""
+msgstr "非法的动作字符 “%c”\n"
 
 #: src/cmdline/cmdline_changelog.cc:136
 #: src/cmdline/cmdline_download_progress_display.cc:131
 msgid "Get:"
-msgstr ""
+msgstr "读取："
 
 #. ForTranslators: this stands for "error" and should be the
 #. same width as the translation of "Ign".
 #: src/cmdline/cmdline_changelog.cc:146
 #: src/cmdline/cmdline_download_progress_display.cc:185
 msgid "Err"
-msgstr ""
+msgstr "出错"
 
 #: src/cmdline/cmdline_changelog.cc:179
 #, c-format
 msgid "Changelog download failed: %s"
-msgstr ""
+msgstr "下载更新日记失败： %s"
 
 #: src/cmdline/cmdline_changelog.cc:283
 msgid "Can't execute sensible-pager, is this a working Debian system?"
-msgstr ""
+msgstr "无法执行 sensible-pager，这是一个正常运行的 Debian 系统吗？"
 
 #: src/cmdline/cmdline_changelog.cc:333
 #, c-format
 msgid "%s is not an official Debian package, cannot display its changelog."
-msgstr ""
+msgstr "%s 不是官方 Debian 软件包，无法显示其更新日志。"
 
 #: src/cmdline/cmdline_changelog.cc:394
 #, c-format
 msgid "Couldn't find a changelog for %s"
-msgstr ""
+msgstr "无法找到 %s 的更新日志"
 
 #: src/cmdline/cmdline_changelog.cc:398
 #, c-format
 msgid "Couldn't run pager %s"
-msgstr ""
+msgstr "呼叫器运行不了 %s"
 
 #: src/cmdline/cmdline_clean.cc:60
 #, c-format
