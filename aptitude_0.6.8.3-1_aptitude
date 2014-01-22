@@ -316,17 +316,18 @@ msgstr ""
 
 #: src/apt_options.cc:282
 msgid "Automatically upgrade installed packages"
-msgstr ""
+msgstr "自动更新已安装过的软件包"
 
 #: src/apt_options.cc:283
 msgid ""
 "If this option is enabled, then on startup, aptitude will select all "
 "upgradable packages for upgrade."
 msgstr ""
+"如果开启此选项，则在启动时， aptitude 会选择所有可以更新的软件包来更新。"
 
 #: src/apt_options.cc:287
 msgid "Remove obsolete package files after downloading new package lists"
-msgstr ""
+msgstr "下载新的软件包列表后删除过期的软件包文件"
 
 #: src/apt_options.cc:288
 msgid ""
@@ -334,42 +335,49 @@ msgid ""
 "delete from the package cache any package files that can no longer be "
 "downloaded from any archive in sources.list."
 msgstr ""
+"如果开启此选项，则在每一个安装过程结束后， aptitude 会删除软件包缓存中所有不"
+"能从任何 sources.list 指定的档案中下载的软件包文件。"
 
 #: src/apt_options.cc:293
 msgid "URL to use to download changelogs"
-msgstr ""
+msgstr "用于下载变更日志的 URL"
 
 #: src/apt_options.cc:294
 msgid ""
 "This option controls the server used to download changelogs.  You should "
 "only need to change this if the changelogs move to a different URL."
 msgstr ""
+"此选项控制用来从 Debian 网站下载更新日志的模板。\n如果更新日记地址移动了，请"
+"修改到新地址。"
 
 #: src/apt_options.cc:300
 msgid "Display a preview of what will be done before doing it"
-msgstr ""
+msgstr "在实际执行动作前显示将执行动作的预览"
 
 #: src/apt_options.cc:301
 msgid ""
 "If this option is enabled, then when you ask aptitude to perform an install "
 "run, it will first display a summary of the actions it is going to perform."
 msgstr ""
+"如果开启此选项，则当您要求 aptitude 执行安装时，它会首先显示它将要执行的动作"
+"的概要。"
 
 #: src/apt_options.cc:307
 msgid ""
 "Forget which packages are \"new\" whenever the package lists are updated"
-msgstr ""
+msgstr "当软件包列表更新后忘记哪些包是“新”的"
 
 #: src/apt_options.cc:308
 msgid ""
 "If this option is enabled, then aptitude will clear the list of new packages "
 "after you update the package lists (e.g., by pressing 'u')."
 msgstr ""
+"如果开启此选项，则 aptitude 会在您更新软件包列表后(如按‘u’键)清除新软件列表。"
 
 #: src/apt_options.cc:313
 msgid ""
 "Forget which packages are \"new\" whenever packages are installed or removed"
-msgstr ""
+msgstr "安装或者卸载软件包后忘记哪些包是“新”的"
 
 #: src/apt_options.cc:314
 msgid ""
@@ -377,6 +385,8 @@ msgid ""
 "after you perform an install run or install or remove packages from the "
 "command-line."
 msgstr ""
+"如果开启此选项，则 aptitude 会在您执行安装或从命令行安装或卸载软件包后清除新"
+"软件列表。"
 
 #: src/apt_options.cc:320
 msgid ""
