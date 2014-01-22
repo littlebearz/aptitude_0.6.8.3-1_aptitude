@@ -823,84 +823,84 @@ msgstr "呼叫器运行不了 %s"
 #: src/cmdline/cmdline_clean.cc:60
 #, c-format
 msgid "E: The clean command takes no arguments\n"
-msgstr ""
+msgstr "E: clean 命令不接受任何参数\n"
 
 #: src/cmdline/cmdline_clean.cc:66
 #, c-format
 msgid "Del %s* %spartial/*\n"
-msgstr ""
+msgstr "删除 %s* %s 部分 /*\n"
 
 #: src/cmdline/cmdline_clean.cc:76 src/cmdline/cmdline_clean.cc:146
 #: src/ui.cc:1787 src/ui.cc:1875
 msgid "Unable to lock the download directory"
-msgstr ""
+msgstr "锁定不了下载的文件夹"
 
 #: src/cmdline/cmdline_clean.cc:106
 #, c-format
 msgid "Del %s %s [%sB]\n"
-msgstr ""
+msgstr "删除 %s %s [%sB]\n"
 
 #: src/cmdline/cmdline_clean.cc:134
 #, c-format
 msgid "E: The autoclean command takes no arguments\n"
-msgstr ""
+msgstr "E: autoclean 命令不接受任何参数\n"
 
 #: src/cmdline/cmdline_clean.cc:172
 #, c-format
 msgid "Would free %sB of disk space\n"
-msgstr ""
+msgstr "将释放 %sB 磁盘空间\n"
 
 #: src/cmdline/cmdline_clean.cc:175
 #, c-format
 msgid "Freed %sB of disk space\n"
-msgstr ""
+msgstr "已释放 %sB 磁盘空间\n"
 
 #: src/cmdline/cmdline_do_action.cc:159
 #, c-format
 msgid "Invalid operation %s"
-msgstr ""
+msgstr "无效的操作 %s"
 
 #: src/cmdline/cmdline_do_action.cc:233
 msgid "Unexpected pattern argument following \"keep-all\""
-msgstr ""
+msgstr "在参数 “keep-all” 之后有意料之外的模式"
 
 #: src/cmdline/cmdline_do_action.cc:345
 #, c-format
 msgid ""
 "Unable to safely resolve dependencies, try running with --full-resolver.\n"
-msgstr ""
+msgstr "无法安全解决依赖关系，请尝试使用 --full-resolver 来运行。\n"
 
 #: src/cmdline/cmdline_do_action.cc:385 src/cmdline/cmdline_simulate.cc:60
 #: src/main.cc:1223
 #, c-format
 msgid "Abort.\n"
-msgstr ""
+msgstr "放弃。\n"
 
 #: src/cmdline/cmdline_download.cc:45
 #, c-format
 msgid "download: you must specify at least one package to download\n"
-msgstr ""
+msgstr "下载：您必须指定至少一个要下载的软件包\n"
 
 #: src/cmdline/cmdline_download.cc:63
 #: src/generic/apt/download_install_manager.cc:83
 msgid "Couldn't read source list"
-msgstr ""
+msgstr "无法读取源列表文件"
 
 #: src/cmdline/cmdline_download.cc:90
 #, c-format
 msgid "Can't find a package named \"%s\""
-msgstr ""
+msgstr "无法找到名称为 “%s” 的软件包"
 
 #: src/cmdline/cmdline_download.cc:134
 #, c-format
 msgid ""
 "No downloadable files for %s version %s; perhaps it is a local or obsolete "
 "package?"
-msgstr ""
+msgstr "%s 版本 %s 没有可下载的文件；也许它是一个本地软件包或者过期的软件包？"
 
 #: src/cmdline/cmdline_download_progress_display.cc:154
 msgid "Hit"
-msgstr ""
+msgstr "命中"
 
 #. ForTranslators: this stands for "ignored" and should be
 #. the same width as the translation of "Err".
