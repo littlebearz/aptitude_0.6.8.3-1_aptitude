@@ -120,88 +120,90 @@ msgstr ""
 
 #: src/apt_options.cc:190
 msgid "Prompt for confirmation at exit"
-msgstr ""
+msgstr "退出时提示并要求确认"
 
 #: src/apt_options.cc:191
 msgid ""
 "If this option is enabled, aptitude will not terminate until you confirm "
 "that you really want to quit."
-msgstr ""
+msgstr "如果开启此选项， aptitude 将不会终止，直到您确认您确实希望退出。"
 
 #: src/apt_options.cc:195
 msgid "Pause after downloading files"
-msgstr ""
+msgstr "下载文件后暂停"
 
 #: src/apt_options.cc:196
 msgid ""
 "This option controls whether aptitude will wait for confirmation after a "
 "download before it goes ahead and installs packages."
-msgstr ""
+msgstr "这个选项控制 aptitude 是否会在下载完成后继续进行前等待确认再安装软件包。"
 
 #: src/apt_options.cc:199
 msgid "Never"
-msgstr ""
+msgstr "从不"
 
 #: src/apt_options.cc:200
 msgid ""
 "Never wait for the user after downloading packages: always begin the "
 "installation immediately."
-msgstr ""
+msgstr "在下载软件包后从不等待用户：总是立即开始安装。"
 
 #: src/apt_options.cc:201
 msgid "When an error occurs"
-msgstr ""
+msgstr "当错误发生时"
 
 #: src/apt_options.cc:202
 msgid ""
 "Wait for confirmation if an error occurred during the download.  If there "
 "were no errors, begin installing packages immediately."
-msgstr ""
+msgstr "如果下载过程发生错误则等待确认。如果没有错误就立即开始安装软件包。"
 
 #: src/apt_options.cc:203
 msgid "Always"
-msgstr ""
+msgstr "总是"
 
 #: src/apt_options.cc:204
 msgid ""
 "Always wait for the user to confirm the download before proceeding with the "
 "installation."
-msgstr ""
+msgstr "在执行安装前总是等待用于确认该下载。"
 
 #: src/apt_options.cc:206
 msgid "Use a 'status-line' download indicator for all downloads"
-msgstr ""
+msgstr "在所有的下载任务中使用“状态条”下载进度显示器"
 
 #: src/apt_options.cc:207
 msgid ""
 "If this option is enabled, aptitude will display the status of ongoing "
 "downloads at the bottom of the screen, rather than opening a new view."
-msgstr ""
+msgstr "如果开启该选项， aptitude 会在屏幕底端显示正在进行的下载状态，而不是打开新的"
+"视图。"
 
 #: src/apt_options.cc:211
 msgid "Display the information area by default"
-msgstr ""
+msgstr "默认显示信息区域"
 
 #: src/apt_options.cc:212
 msgid ""
 "If this option is enabled, the information area (the pane at the bottom of "
 "the screen) in the package list will be visible when the program starts; "
 "otherwise, it will be initially hidden."
-msgstr ""
+msgstr "如果开启该选项，软件列表中的信息区域(屏幕底端的窗格)会在程序启动时显示。否"
+"则，它在一开始会被隐藏。"
 
 #: src/apt_options.cc:217
 msgid "Display tabs for the available views"
-msgstr ""
+msgstr "为可用视图显示选项卡"
 
 #: src/apt_options.cc:218
 msgid ""
 "If this option is enabled, tabs will appear at the top of the screen listing "
 "the currently opened views."
-msgstr ""
+msgstr "如果开启该选项，列出当前开启的视图的选项卡会显示在屏幕顶端。"
 
 #: src/apt_options.cc:221
 msgid "Display tabs for the information area"
-msgstr ""
+msgstr "为信息区域显示选项卡"
 
 #: src/apt_options.cc:222
 msgid ""
@@ -209,10 +211,12 @@ msgid ""
 "area (the pane at the bottom of the screen) listing the different displays "
 "of information that can be viewed there."
 msgstr ""
+"如果开启该选项，会在信息区域的顶部(屏幕底端的窗格)显示选项卡，列出不同的信息"
+"显示以供查看。"
 
 #: src/apt_options.cc:227
 msgid "Advance to the next item after changing the state of a package"
-msgstr ""
+msgstr "改变一个软件包的状态后前进至下一项"
 
 #: src/apt_options.cc:228
 msgid ""
@@ -220,10 +224,12 @@ msgid ""
 "instance, installing or removing it) will move the selection to the next "
 "package in the list."
 msgstr ""
+"如果开启该选项，则在一个软件上执行某个动作(如安装或卸载它)后将会选择列表中的"
+"下一个软件包。"
 
 #: src/apt_options.cc:233
 msgid "Automatically show why packages are broken"
-msgstr ""
+msgstr "自动显示软件包因何种原因损坏"
 
 #: src/apt_options.cc:234
 msgid ""
@@ -231,30 +237,34 @@ msgid ""
 "dependencies will automatically display the dependencies that are "
 "unfulfilled in the lower pane of the display."
 msgstr ""
+"如果开启此选项，则高亮显示某个依赖关系被破坏的软件包时会在屏幕下方的窗格内自"
+"动显示未被满足的依赖关系。"
 
 #: src/apt_options.cc:240
 msgid "Display flat view instead of default view on startup"
-msgstr ""
+msgstr "启动用平视图代替默认的视图"
 
 #: src/apt_options.cc:241
 msgid ""
 "If this option is enabled, then the first view displayed on startup will be "
 "a flat view instead of the default view."
-msgstr ""
+msgstr "如果开启此选项，启动时第一个视图会用平视图代替默认的视图"
 
 #: src/apt_options.cc:245
 msgid "The default grouping method for package views"
-msgstr ""
+msgstr "用于查看软件包的默认分组方法"
 
 #: src/apt_options.cc:246
 msgid ""
 "This option controls how aptitude organizes the package list.  See the "
 "aptitude user's manual for information on how to specify a grouping method."
 msgstr ""
+"此选项控制 aptitude 如何组织软件包列表。参见 aptitude 用户手册中有关如何指定"
+"分组方法的信息。"
 
 #: src/apt_options.cc:250
 msgid "The default display-limit for package views"
-msgstr ""
+msgstr "用于查看软件包的默认显示限制"
 
 #: src/apt_options.cc:251
 msgid ""
@@ -262,10 +272,12 @@ msgid ""
 "specified by this option.  See the aptitude user's manual for detailed "
 "information about searches."
 msgstr ""
+"默认情况下，每个软件包视图的限制会被设为这个选项指定的值。参见 aptitude 用户"
+"手册中有关搜索的详细信息。"
 
 #: src/apt_options.cc:256
 msgid "The display format for package views"
-msgstr ""
+msgstr "查看软件包的显示格式"
 
 #: src/apt_options.cc:257
 msgid ""
@@ -273,10 +285,12 @@ msgid ""
 "the aptitude user's manual for information on how to specify a display "
 "format."
 msgstr ""
+"此选项控制 aptitude 如何格式化软件包列表的行。参见 aptitude 用户手册中有关指"
+"定显示格式的信息。"
 
 #: src/apt_options.cc:263
 msgid "The display format for the status line"
-msgstr ""
+msgstr "状态行的显示格式"
 
 #: src/apt_options.cc:264
 msgid ""
@@ -284,10 +298,12 @@ msgid ""
 "the package list and the lower pane).  See the aptitude user's manual for "
 "information on how to specify a display format."
 msgstr ""
+"此选项控制 aptitude 如何格式化状态行(在软件包列表和下方窗格之间的那行)。参见\n"
+"aptitude 用户手册中如何指定显示格式的信息。"
 
 #: src/apt_options.cc:271
 msgid "The display format for the header line"
-msgstr ""
+msgstr "标题行的显示格式"
 
 #: src/apt_options.cc:272
 msgid ""
@@ -295,6 +311,8 @@ msgid ""
 "the package list).  See the aptitude user's manual for information on how to "
 "specify a display format."
 msgstr ""
+"此选项控制 aptitude 如何格式化标头行(在软件包列表上面的那行)。参\n"
+"见 aptitude 用户手册中如何指定显示格式的信息。"
 
 #: src/apt_options.cc:282
 msgid "Automatically upgrade installed packages"
