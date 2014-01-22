@@ -391,7 +391,7 @@ msgstr ""
 #: src/apt_options.cc:320
 msgid ""
 "Do not display a warning when the first change is made in read-only mode"
-msgstr ""
+msgstr "当第一个改动是在只读模式下进行时不显示警告。"
 
 #: src/apt_options.cc:321
 msgid ""
@@ -399,10 +399,12 @@ msgid ""
 "modify the state of a package if you do not have permissions to apply the "
 "change to the system."
 msgstr ""
+"如果此选项%B没有%b开启， aptitude 会在您没有权限应用系统修改时修改软件包状态"
+"的时候显示警告。"
 
 #: src/apt_options.cc:327
 msgid "Warn when attempting to perform a privileged action as a non-root user"
-msgstr ""
+msgstr "在非 root 用户试图执行特权命令时发出警告"
 
 #: src/apt_options.cc:328
 msgid ""
@@ -411,10 +413,12 @@ msgid ""
 "installing packages as a non-root user.  You will be given the option to log "
 "in as root and perform the action with root privileges."
 msgstr ""
+"如果开启此选项， aptitude 会在您没有权限时试图执行操作的时候警告您；例如，作"
+"为非 root 用户安装软件。您可以选择以 root 身份登录并以 root 权限执行动作。"
 
 #: src/apt_options.cc:337
 msgid "File to log actions into"
-msgstr ""
+msgstr "记录所执行动作的日志文件"
 
 #: src/apt_options.cc:338
 msgid ""
@@ -423,10 +427,13 @@ msgid ""
 "character ('%B|%b'), the remainder of the name will be interpreted as a "
 "shell command that is to receive the log on standard input."
 msgstr ""
+"如果您安装或删除软件包， aptitude 所执行操作的摘要会被写入此文件。如果文件名"
+"的第一个字符是管道字符('%B|%b')，剩下的文件名会被识别为 接收标准输入日志信息"
+"的 shell 命令。"
 
 #: src/apt_options.cc:350
 msgid "Automatically resolve dependencies of a package when it is selected"
-msgstr ""
+msgstr "选择软件包时自动解决依赖关系"
 
 #: src/apt_options.cc:351
 msgid ""
@@ -435,10 +442,13 @@ msgid ""
 "installation.  This is much faster than the built-in dependency resolver, "
 "but may produce suboptimal results or fail entirely in some scenarios."
 msgstr ""
+"如果开启此选项， aptitude 会使用简单的启发来立即解决每个您标记为安装的软件包"
+"的依赖关系。这将远快于内建的依赖解决方式，但可能会产生并非最优的解决方式或者"
+"在某些情况下彻底失败。"
 
 #: src/apt_options.cc:359
 msgid "Automatically fix broken packages before installing or removing"
-msgstr ""
+msgstr "安装或者卸载时自动修正破损的软件包"
 
 #: src/apt_options.cc:360
 msgid ""
@@ -447,10 +457,12 @@ msgid ""
 "suggestion of the problem resolver.  Otherwise, aptitude will prompt you for "
 "a solution to the broken dependencies."
 msgstr ""
+"如果开启此选项，并且您在有些软件包被破坏的时候执行安装， aptitude 会自动应用"
+"问题解决器的当前建议。否则， aptitude 会提示您依赖破坏的解决方法。"
 
 #: src/apt_options.cc:367
 msgid "Install recommended packages automatically"
-msgstr ""
+msgstr "自动安装推荐的软件包"
 
 #: src/apt_options.cc:368
 msgid ""
@@ -462,10 +474,15 @@ msgid ""
 "enabled, packages that are recommended by an installed package will not be "
 "automatically removed."
 msgstr ""
+"如果开启此选项并且开启“自动解决依赖关系”， aptitude 会在安装新软件包的直接依"
+"赖包之外尝试安装其推荐的软件包。建议的软件包不会被自动安装。\n"
+"如果开启此选项并且开启“自动移除未用的软件包”，被所安装包推荐安装的包不会被自"
+"动移除。"
 
 #: src/apt_options.cc:380
 msgid "Remove unused packages automatically"
 msgstr ""
+msgstr "自动卸载未用软件包"
 
 #: src/apt_options.cc:381
 msgid ""
@@ -477,10 +494,14 @@ msgid ""
 "is enabled, automatically installed packages will not be removed if any "
 "installed package recommends them."
 msgstr ""
+"如果开启此选项，自动安装的软件包和非手动安装的软件包依赖会被从系统移除。取消"
+"该移除动作会标记该软件包为手动安装。\n"
+"如果开启此选项并开启“自动安装推荐的软件包”，并且有其他已安装的软件包推荐它"
+"们，那么自动安装的软件包将不会被移除。"
 
 #: src/apt_options.cc:392
 msgid "Packages that should never be automatically removed"
-msgstr ""
+msgstr "从不自动删除的软件包"
 
 #: src/apt_options.cc:393
 msgid ""
@@ -488,10 +509,12 @@ msgid ""
 "installed package depends on them: they will never be targeted for removal "
 "as unused packages."
 msgstr ""
+"满足此搜索模式的软件包将总是被认为有已安装的软件包依赖它们：它们将不会作为未"
+"用软件包被移除。"
 
 #: src/apt_options.cc:398
 msgid "Allow dependency resolutions that break holds or forbids"
-msgstr ""
+msgstr "允许破华保持或禁止的依赖关系解决方案"
 
 #: src/apt_options.cc:399
 msgid ""
@@ -505,79 +528,82 @@ msgid ""
 "the dependencies of a package that has just been selected for installation "
 "or upgrade, due to apt bug #470035."
 msgstr ""
+"如果开启此选项，那么无论何时 aptitude 解决依赖关系问题，它会考虑修改被保持的"
+"软件包，或者安装禁止的软件包版本。若禁止此选项，这些解决方案默认会被拒绝。\n"
+"注意：目前，这个限制只适用于 aptitude 的依赖关系解决器(屏幕底端的红条)被开启"
+"时。aptitude 仍然会在自动安装被选择安装或升级软件包的依赖是破坏保持规则，原因"
+"请见 apt bug #470035。"
 
 #: src/apt_options.cc:525
 msgid "UI options"
-msgstr ""
+msgstr "用户界面选项"
 
 #: src/apt_options.cc:527
 msgid "Dependency handling"
-msgstr ""
+msgstr "处理依赖关系"
 
 #: src/apt_options.cc:529 src/pkg_grouppolicy.cc:1064
 msgid "Miscellaneous"
-msgstr ""
+msgstr "杂项"
 
 #: src/broken_indicator.cc:128
 #, c-format
 msgid "%ls: Examine"
-msgstr ""
+msgstr "%ls: 检测"
 
 #: src/broken_indicator.cc:137
 #, c-format
 msgid "%ls: Apply"
-msgstr ""
+msgstr "%ls: 应用"
 
 #: src/broken_indicator.cc:142
 #, c-format
 msgid "%ls: Next"
-msgstr ""
+msgstr "%ls: 下一个"
 
 #: src/broken_indicator.cc:148
 #, c-format
 msgid "%ls: Previous"
-msgstr ""
+msgstr "%ls: 上一个"
 
 #: src/broken_indicator.cc:243
 msgid "Dependency resolution disabled."
-msgstr ""
+msgstr "依赖解决被禁用。"
 
 #: src/broken_indicator.cc:254
 msgid "Unable to resolve dependencies."
-msgstr ""
+msgstr "无法解决依赖关系。"
 
 #: src/broken_indicator.cc:265
 msgid "Fatal error in resolver"
-msgstr ""
+msgstr "解决器发生致命错误"
 
 #: src/broken_indicator.cc:277
 #, c-format
 msgid "[%d(%d)/...] Resolving dependencies"
-msgstr ""
+msgstr "[%d(%d)/...] 正在解决依赖关系"
 
 #: src/broken_indicator.cc:313 src/gtk/resolver.cc:1294
 #: src/gtk/resolver.cc:1462 src/solution_dialog.cc:140
 #: src/solution_screen.cc:569
 msgid "Internal error: unexpected null solution."
-msgstr ""
+msgstr "内部错误：意料之外的空解决方案。"
 
 #: src/broken_indicator.cc:371
 msgid "Suggest keeping all packages at their current version."
-msgstr ""
+msgstr "建议保持所有软件包于其当前版本。"
 
 #: src/broken_indicator.cc:379
 #, c-format
 msgid "%d install"
 msgid_plural "%d installs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "安装 %d 个包"
 
 #: src/broken_indicator.cc:389
 #, c-format
 msgid "%d removal"
 msgid_plural "%d removals"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "删除 %d 个包"
 
 #: src/broken_indicator.cc:399
 #, c-format
