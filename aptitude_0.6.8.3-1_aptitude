@@ -53,59 +53,61 @@ msgstr "%B值:%b   "
 #: src/apt_config_treeitems.cc:280
 #, c-format
 msgid "Editing \"%ls\": "
-msgstr ""
+msgstr "正在编辑 \"%ls\": "
 
 #. ForTranslators: These strings describing config items
 #. should be the same width.
 #: src/apt_config_treeitems.cc:410
 msgid "%BChoice:%b  "
-msgstr ""
+msgstr "%B选择:%b  "
 
 #: src/apt_options.cc:160
 msgid "Display some available commands at the top of the screen"
-msgstr ""
+msgstr "在屏幕顶端显示可用的命令"
 
 #: src/apt_options.cc:161
 msgid ""
 "If this option is enabled, a brief summary of some of the most important "
 "aptitude commands will appear beneath the menu bar."
-msgstr ""
+msgstr "如果开启此选项，一些最常用的 aptitude　命令的简要说明会显示在菜单栏的下面"
 
 #: src/apt_options.cc:165
 msgid "Hide the menu bar when it is not being used"
-msgstr ""
+msgstr "不使用菜单条时隐藏它"
 
 #: src/apt_options.cc:166
 msgid ""
 "If this option is enabled, the menu bar will only appear when it has been "
 "activated by pressing the menu key."
-msgstr ""
+msgstr "如果开启此选项，菜单栏将仅在被菜单键激活时才显示"
 
 #: src/apt_options.cc:170
 msgid "Use a minibuffer-style prompt when possible"
-msgstr ""
+msgstr "如果可能的话使用微缓冲区风格的提示信息"
 
 #: src/apt_options.cc:171
 msgid ""
 "If this option is enabled, prompts will be displayed in a single line at the "
 "bottom of the screen.  If not, prompts will be displayed as pop-up dialog "
 "boxes."
-msgstr ""
+msgstr "如果开启此选项，提示信息会显示在屏幕最底下一行。如果不开启，提示信息会作为弹"
+"出对话框显示。"
 
 #: src/apt_options.cc:176
 msgid "Show partial search results (incremental search)"
-msgstr ""
+msgstr "显示部分搜索结果(增量搜索)"
 
 #: src/apt_options.cc:177
 msgid ""
 "If this option is enabled, aptitude will perform searches within the package "
 "list as you type them.  This is convenient, but may slow the program down, "
 "particularly on older computers."
-msgstr ""
+msgstr "如果开启此选项， aptitude 会在您键入搜索内容的同时在软件包列表内进行搜索。这"
+"很方便，但可能会减缓程序执行速度，尤其是老一些的机器。"
 
 #: src/apt_options.cc:183
 msgid "Closing the last view exits the program"
-msgstr ""
+msgstr "关闭最后一个画面并退出该程序"
 
 #: src/apt_options.cc:184
 msgid ""
@@ -113,6 +115,8 @@ msgid ""
 "(package lists, package details, etc) have been closed.  Otherwise, aptitude "
 "will continue running until you select 'Quit' from the Actions menu."
 msgstr ""
+"如果开启此选项， aptitude 会在所有视图(软件包列表，软件包详情)都关闭时停止。"
+"否则， aptitude 会继续运行，直到您从动作菜单选择‘退出’。"
 
 #: src/apt_options.cc:190
 msgid "Prompt for confirmation at exit"
