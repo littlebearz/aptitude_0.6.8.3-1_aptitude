@@ -2727,24 +2727,24 @@ msgstr "提示无效 \"%s\": expected a target, but found nothing."
 #: src/generic/apt/aptitude_resolver.cc:565
 #, c-format
 msgid "Invalid hint \"%s\": invalid target: %s"
-msgstr ""
+msgstr "提示无效 \"%s\": 目标无效: %s"
 
 #: src/generic/apt/aptitude_resolver.cc:585
 #, c-format
 msgid "Invalid hint \"%s\": trailing junk after the version."
-msgstr ""
+msgstr "提示无效 \"%s\": 版本后的垃圾渣渣."
 
 #: src/generic/apt/aptitude_resolver.cc:680
 #, c-format
 msgid ""
 "Invalid hint \"%s\": the action \"%s\" should be \"approve\", \"reject\", or "
 "a number."
-msgstr ""
+msgstr "提示无效 \"%s\": 这动作 \"%s\" 应该是 \"approve\", \"reject\", 或者是一个数字。"
 
 #: src/generic/apt/aptitude_resolver_cost_settings.cc:130
 #, c-format
 msgid "Conflicting types for the cost component %s."
-msgstr ""
+msgstr "成本零件格式冲突 %s."
 
 #: src/generic/apt/aptitude_resolver_universe.cc:837
 #, c-format
@@ -2752,96 +2752,99 @@ msgid ""
 "Invalid safety level \"%s\" (not \"discard\", \"maximum\", \"minimum\", or "
 "an integer)."
 msgstr ""
+"无效的安全级别 \"%s\" (不是 \"discard\", \"maximum\", \"minimum\", 或者 "
+"一个正数)."
 
 #: src/generic/apt/download_install_manager.cc:60
 msgid ""
 "The package cache is not available; unable to download and install packages."
 msgstr ""
+"安装包的缓存不可用; 不能下载和安装."
 
 #: src/generic/apt/download_install_manager.cc:93
 msgid "Internal error: couldn't generate list of packages to download"
-msgstr ""
+msgstr "内部出错: 生成不了安装包的列表来下载"
 
 #: src/generic/apt/download_install_manager.cc:120
 #: src/generic/apt/download_update_manager.cc:130
 #, c-format
 msgid "Failed to fetch %s: %s"
-msgstr ""
+msgstr "没下载到 %s: %s"
 
 #: src/generic/apt/download_install_manager.cc:129
 msgid "Some files failed to download"
-msgstr ""
+msgstr "一些文件没下载到"
 
 #: src/generic/apt/download_install_manager.cc:140
 msgid "Unable to correct for unavailable packages"
-msgstr ""
+msgstr "不能修改无效的安装包"
 
 #: src/generic/apt/download_install_manager.cc:175
 msgid "A package failed to install.  Trying to recover:"
-msgstr ""
+msgstr "一个安装包安装出错。 试图恢复中："
 
 #: src/generic/apt/download_install_manager.cc:219
 msgid ""
 "Could not regain the system lock!  (Perhaps another apt or dpkg is running?)"
-msgstr ""
+msgstr "无法取得系统文件锁！(可能另外一个apt或者dpkg在运行?)"
 
 #: src/generic/apt/download_update_manager.cc:70
 msgid "Couldn't read list of package sources"
-msgstr ""
+msgstr "无法读取软件包源列表"
 
 #: src/generic/apt/download_update_manager.cc:150
 msgid "Couldn't clean out list directories"
-msgstr ""
+msgstr "无法清除列表文件夹"
 
 #: src/generic/apt/download_update_manager.cc:155
 #: src/generic/apt/download_update_manager.cc:157
 msgid ""
 "Some index files failed to download. They have been ignored, or old ones "
 "used instead."
-msgstr ""
+msgstr "一些索引文件下载出错。 它们被忽视了，或者用旧的在代替中"
 
 #: src/generic/apt/download_update_manager.cc:178
 msgid "Couldn't rebuild package cache"
-msgstr ""
+msgstr "不能从新制作安装包的缓存"
 
 #: src/generic/apt/dpkg.cc:102
 #, c-format
 msgid "Couldn't chroot into %s for %s"
-msgstr ""
+msgstr "不能 chroot到 %s 为 %s"
 
 #: src/generic/apt/dpkg.cc:124
 #, c-format
 msgid "Waited for %s but it wasn't there"
-msgstr ""
+msgstr "等过 %s 不过没找到"
 
 #: src/generic/apt/dump_packages.cc:539 src/generic/apt/dump_packages.cc:629
 #, c-format
 msgid "Unable to stat %s."
-msgstr ""
+msgstr "不能 stat %s."
 
 #: src/generic/apt/dump_packages.cc:674
 #, c-format
 msgid "Unable to create truncated cache: %s."
-msgstr ""
+msgstr "不能生成阶段缓存: %s."
 
 #: src/generic/apt/log.cc:55
 #, c-format
 msgid "Unable to open %s to log actions"
-msgstr ""
+msgstr "不能打开 %s 来记录动作"
 
 #. ForTranslators: This is a date and time format.  See strftime(3).
 #: src/generic/apt/log.cc:66
 msgid "%a, %b %e %Y %T %z"
-msgstr ""
+msgstr "%a, %b %e %Y %T %z"
 
 #: src/generic/apt/log.cc:68
 #, c-format
 msgid "Error generating local time (%s)"
-msgstr ""
+msgstr "生成本地时间出错 (%s)"
 
 #: src/generic/apt/log.cc:72
 msgid "log report"
-msgstr ""
+msgstr "日记报告"
 
 #: src/generic/apt/log.cc:73
 #, c-format
@@ -2850,80 +2853,83 @@ msgid ""
 "dpkg problems may not be completed.\n"
 "\n"
 msgstr ""
+"重要: 本日记之记录拟采取行动; 某些行动出错因为\n"
+"dpkg 的问题可能没完成.\n"
+"\n"
 
 #: src/generic/apt/log.cc:74
 #, c-format
 msgid "Will install %li packages, and remove %li packages.\n"
-msgstr ""
+msgstr "将要安装 %li 个软件包，卸载 %li 个软件包。\n"
 
 #: src/generic/apt/log.cc:78
 #, c-format
 msgid "%sB of disk space will be used\n"
-msgstr ""
+msgstr "将要占用 %sB 的磁盘空间\n"
 
 #: src/generic/apt/log.cc:81
 #, c-format
 msgid "%sB of disk space will be freed\n"
-msgstr ""
+msgstr "将要释放 %sB 的磁盘空间\n"
 
 #: src/generic/apt/log.cc:91
 #, c-format
 msgid "[UPGRADE] %s %s -> %s\n"
-msgstr ""
+msgstr "[升级] %s %s -> %s\n"
 
 #: src/generic/apt/log.cc:95
 #, c-format
 msgid "[DOWNGRADE] %s %s -> %s\n"
-msgstr ""
+msgstr "[降级] %s %s -> %s\n"
 
 #: src/generic/apt/log.cc:105
 msgid "REMOVE"
-msgstr ""
+msgstr "卸载"
 
 #: src/generic/apt/log.cc:111
 msgid "INSTALL"
-msgstr ""
+msgstr "安装"
 
 #: src/generic/apt/log.cc:114
 msgid "REINSTALL"
-msgstr ""
+msgstr "重新安装"
 
 #: src/generic/apt/log.cc:117
 msgid "HOLD"
-msgstr ""
+msgstr "保持"
 
 #: src/generic/apt/log.cc:120
 msgid "BROKEN"
-msgstr ""
+msgstr "破损"
 
 #: src/generic/apt/log.cc:123
 msgid "REMOVE, NOT USED"
-msgstr ""
+msgstr "卸载，未用"
 
 #: src/generic/apt/log.cc:126
 msgid "REMOVE, DEPENDENCIES"
-msgstr ""
+msgstr "卸载，依赖关系"
 
 #: src/generic/apt/log.cc:129
 msgid "INSTALL, DEPENDENCIES"
-msgstr ""
+msgstr "安装，依赖关系"
 
 #: src/generic/apt/log.cc:132
 msgid "HOLD, DEPENDENCIES"
-msgstr ""
+msgstr "保持，依赖关系"
 
 #: src/generic/apt/log.cc:135
 msgid "UNCONFIGURED"
-msgstr ""
+msgstr "未配置的"
 
 #: src/generic/apt/log.cc:138
 msgid "????????"
-msgstr ""
+msgstr "????????"
 
 #: src/generic/apt/log.cc:142
 #, c-format
 msgid "[%s] %s\n"
-msgstr ""
+msgstr "[%s] %s\n"
 
 #: src/generic/apt/log.cc:145
 #, c-format
@@ -2932,26 +2938,29 @@ msgid ""
 "\n"
 "Log complete.\n"
 msgstr ""
+"===============================================================================\n"
+"\n"
+"日志完成。\n"
 
 #: src/generic/apt/matching/match.cc:3095
 #: src/generic/apt/matching/match.cc:3212
 msgid "Accessing index"
-msgstr ""
+msgstr "访问索引中"
 
 #: src/generic/apt/matching/match.cc:3105
 #: src/generic/apt/matching/match.cc:3219
 msgid "Filtering packages"
-msgstr ""
+msgstr "正在过滤软件包"
 
 #: src/generic/apt/matching/parse.cc:315
 #, c-format
 msgid "Unknown action type: %s"
-msgstr ""
+msgstr "未知的操作类型：%s"
 
 #: src/generic/apt/matching/parse.cc:330
 #, c-format
 msgid "Unknown multiarch type: %s"
-msgstr ""
+msgstr "未知多结构格式： %s"
 
 #: src/generic/apt/matching/parse.cc:370
 #, c-format
