@@ -1527,34 +1527,34 @@ msgstr "接受所建议的变动"
 
 #: src/cmdline/cmdline_resolver.cc:245
 msgid "reject the proposed changes and search for another solution"
-msgstr ""
+msgstr "拒绝所建议的变动并寻找另一个解决方案"
 
 #: src/cmdline/cmdline_resolver.cc:247
 msgid "give up and quit the program"
-msgstr ""
+msgstr "放弃并退出此程序"
 
 #: src/cmdline/cmdline_resolver.cc:249
 msgid "move to the next solution"
-msgstr ""
+msgstr "到下一个解决方案"
 
 #: src/cmdline/cmdline_resolver.cc:251
 msgid "move to the previous solution"
-msgstr ""
+msgstr "到上一个解决方案"
 
 #: src/cmdline/cmdline_resolver.cc:253
 msgid ""
 "toggle between the contents of the solution and an explanation of the "
 "solution"
-msgstr ""
+msgstr "在解决方案内容和解决方案解释之间切换"
 
 #: src/cmdline/cmdline_resolver.cc:255
 msgid "examine the solution in the visual user interface"
-msgstr ""
+msgstr "检查用户可视界面中的设置方案"
 
 #: src/cmdline/cmdline_resolver.cc:257
 msgid ""
 "abort automatic dependency resolution; resolve dependencies by hand instead"
-msgstr ""
+msgstr "终止自动依赖解决关系；请手动解决依赖关系。"
 
 #: src/cmdline/cmdline_resolver.cc:259
 msgid ""
@@ -1562,6 +1562,8 @@ msgid ""
 "occur.  Enter UNINST instead of a version to reject removing the package.  "
 "ID is the integer printed to the left of the action."
 msgstr ""
+"拒绝给定的软件包版本；不显示任何包括它们的解决方案。请输入 UNINST 而不是版本"
+"以拒绝移除此软件包。ID是正数在行为左面"
 
 #: src/cmdline/cmdline_resolver.cc:261
 msgid ""
@@ -1569,16 +1571,18 @@ msgid ""
 "occur.  Enter UNINST instead of a version to accept removing the package.  "
 "ID is the integer printed to the left of the action."
 msgstr ""
+"接受给定的软件包版本; 仅显示包括它们的解决方案。请输入 UNINST 而不是版本以"
+"接受移除软件包。ID是正数在行为左面"
 
 #: src/cmdline/cmdline_resolver.cc:263
 msgid ""
 "display information about the action labeled ID from the solution.  The "
 "label is the integer printed to the left of the action."
-msgstr ""
+msgstr "从解决方案中显示行为信息标签为ID。标签是正数在行为左面"
 
 #: src/cmdline/cmdline_resolver.cc:265
 msgid "adjust the state of the listed packages, where ACTION is one of:"
-msgstr ""
+msgstr "修改所列软件包的状态，这里“动作”为下列项之一："
 
 #: src/cmdline/cmdline_resolver.cc:283
 msgid ""
