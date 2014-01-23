@@ -2291,157 +2291,158 @@ msgid ""
 "Invalid package grouping mode \"%s\" (should be \"auto\", \"none\", \"package"
 "\", or \"source-package\")"
 msgstr ""
+"无效的包分组模式“%s”(只能是“auto”，“none”，“package”或“source-package”)"
 
 #: src/cmdline/cmdline_versions.cc:584
 #, c-format
 msgid "versions: You must provide at least one package selector\n"
-msgstr ""
+msgstr "版本：您必须提供至少一个包查找项\n"
 
 #: src/cmdline/cmdline_why.cc:290
 msgid "dep_level"
-msgstr ""
+msgstr "依赖级"
 
 #: src/cmdline/cmdline_why.cc:296
 msgid "DependsOnly"
-msgstr ""
+msgstr "仅依赖"
 
 #: src/cmdline/cmdline_why.cc:310
 msgid "version_selection"
-msgstr ""
+msgstr "版本选择"
 
 #: src/cmdline/cmdline_why.cc:315
 msgid "Current"
-msgstr ""
+msgstr "当前"
 
 #: src/cmdline/cmdline_why.cc:318
 msgid "Candidate"
-msgstr ""
+msgstr "候选"
 
 #: src/cmdline/cmdline_why.cc:321 src/gtk/gui.cc:91 src/gtk/gui.cc:1417
 msgid "Install"
-msgstr ""
+msgstr "安装"
 
 #: src/cmdline/cmdline_why.cc:324
 msgid "InstallNotCurrent"
-msgstr ""
+msgstr "已安装但不是最新版本"
 
 #: src/cmdline/cmdline_why.cc:332
 msgid "allow_choices"
-msgstr ""
+msgstr "允许的选择"
 
 #: src/cmdline/cmdline_why.cc:335
 msgid "true"
-msgstr ""
+msgstr "真"
 
 #: src/cmdline/cmdline_why.cc:337
 msgid "false"
-msgstr ""
+msgstr "假"
 
 #: src/cmdline/cmdline_why.cc:381
 #, c-format
 msgid "Install(%s)"
-msgstr ""
+msgstr "安装(%s)"
 
 #: src/cmdline/cmdline_why.cc:383
 #, c-format
 msgid "Remove(%s)"
-msgstr ""
+msgstr "移除(%s)"
 
 #: src/cmdline/cmdline_why.cc:385
 #, c-format
 msgid "Install(%s provides %s)"
-msgstr ""
+msgstr "安装(%s 提供了 %s)"
 
 #: src/cmdline/cmdline_why.cc:389
 #, c-format
 msgid "Remove(%s provides %s)"
-msgstr ""
+msgstr "移除(%s 提供了 %s)"
 
 #: src/cmdline/cmdline_why.cc:1074
 #, c-format
 msgid "    ++ Examining %F\n"
-msgstr ""
+msgstr "    ++ 正在检查 %F\n"
 
 #: src/cmdline/cmdline_why.cc:1082
 msgid "    ++   --> skipping, not a conflict\n"
-msgstr ""
+msgstr "    ++   --> 跳过，不是冲突\n"
 
 #: src/cmdline/cmdline_why.cc:1088
 msgid "    ++   --> skipping conflict\n"
-msgstr ""
+msgstr "    ++   --> 跳过冲突\n"
 
 #: src/cmdline/cmdline_why.cc:1094
 msgid "    ++   --> skipping, not relevant according to params\n"
-msgstr ""
+msgstr "    ++   --> 跳过，根据参数它不相关\n"
 
 #: src/cmdline/cmdline_why.cc:1100
 msgid "    ++   --> skipping, parent is not the selected version\n"
-msgstr ""
+msgstr "    ++   --> 跳过，父节点不是选定的版本\n"
 
 #: src/cmdline/cmdline_why.cc:1106
 msgid "    ++   --> skipping, the dep is satisfied by the current version\n"
-msgstr ""
+msgstr "    ++   --> 跳过，当前版本已满足依赖\n"
 
 #: src/cmdline/cmdline_why.cc:1112
 msgid "Skipping this solution, I've already seen it.\n"
-msgstr ""
+msgstr "跳过这个解决方案，我已经看过了。\n"
 
 #: src/cmdline/cmdline_why.cc:1118
 msgid "    ++   --> skipping, version check failed\n"
-msgstr ""
+msgstr "    ++   --> 跳过，版本检查失败\n"
 
 #: src/cmdline/cmdline_why.cc:1124
 msgid "    ++   --> ENQUEUING\n"
-msgstr ""
+msgstr "    ++   --> 加入队列\n"
 
 #: src/cmdline/cmdline_why.cc:1130
 #, c-format
 msgid "    ++   --> ENQUEUING %s Provides %s\n"
-msgstr ""
+msgstr "    ++   --> 加入队列 %s 提供了 %s\n"
 
 #: src/cmdline/cmdline_why.cc:1138
 #, c-format
 msgid "Starting search with parameters %ls\n"
-msgstr ""
+msgstr "开始搜索参数 %ls\n"
 
 #: src/cmdline/cmdline_why.cc:1194
 #, c-format
 msgid "Unable to find a reason to remove %s.\n"
-msgstr ""
+msgstr "未能找到理由以移除 %s。\n"
 
 #: src/cmdline/cmdline_why.cc:1196
 #, c-format
 msgid "Unable to find a reason to install %s.\n"
-msgstr ""
+msgstr "未能找到理由以安装 %s。\n"
 
 #: src/cmdline/cmdline_why.cc:1235
 #, c-format
 msgid "Packages requiring %s:"
-msgstr ""
+msgstr "依赖于 %s 的软件包："
 
 #: src/cmdline/cmdline_why.cc:1299 src/cmdline/cmdline_why.cc:1327
 #: src/cmdline/cmdline_why.cc:1391
 #, c-format
 msgid "No package named \"%s\" exists."
-msgstr ""
+msgstr "名称为 “%s” 的软件包的软件包不存在。"
 
 #: src/cmdline/cmdline_why.cc:1331
 msgid "Unable to parse some match patterns."
-msgstr ""
+msgstr "无法分析某些匹配模式"
 
 #: src/cmdline/cmdline_why.cc:1366
 #, c-format
 msgid ""
 "%s: this command requires at least one argument (the package to query).\n"
-msgstr ""
+msgstr "%s：这个命令要求至少一个参数(要查询的软件包)。\n"
 
 #: src/cmdline/cmdline_why.h:212
 msgid "Unknown version selection, something is very wrong."
-msgstr ""
+msgstr "选择了未知版本，出现了严重错误。"
 
 #: src/cmdline/terminal.cc:46
 msgid "Unexpected end-of-file on standard input"
-msgstr ""
+msgstr "标准输入中遇到意料之外的文件结束标志"
 
 #. ForTranslators: the text between [] should be
 #. exactly 4 character cells wide; "ERR" is short
@@ -2449,176 +2450,176 @@ msgstr ""
 #: src/cmdline/text_progress.cc:96
 #, c-format
 msgid "[ ERR] %s"
-msgstr ""
+msgstr "[错误] %s"
 
 #: src/dep_item.cc:151
 msgid "UNSATISFIED"
-msgstr ""
+msgstr "未满足的"
 
 #: src/dep_item.cc:151 src/reason_fragment.cc:234
 msgid "UNAVAILABLE"
-msgstr ""
+msgstr "不可用"
 
 #: src/desc_render.cc:134 src/gtk/aptitude.glade:1051
 msgid "Tags"
-msgstr ""
+msgstr "标签"
 
 #: src/desc_render.cc:149
 msgid "User Tags"
-msgstr ""
+msgstr "用户标签"
 
 #: src/download_item.cc:80 src/download_item.cc:84 src/download_item.cc:106
 msgid " [Working]"
-msgstr ""
+msgstr "[正在工作]"
 
 #: src/download_item.cc:110 src/download_list.cc:362
 msgid "[Hit]"
-msgstr ""
+msgstr "[命中]"
 
 #: src/download_item.cc:110 src/download_list.cc:384
 msgid "[Downloaded]"
-msgstr ""
+msgstr "[已下载]"
 
 #: src/download_list.cc:82
 #, c-format
 msgid "Downloaded %sB in %s (%sB/s)."
-msgstr ""
+msgstr "已下载 %sB，耗时 %s (%sB/s)。"
 
 #: src/download_list.cc:88
 #, c-format
 msgid "%n%nSome files were not downloaded successfully."
-msgstr ""
+msgstr "%n%n某些文件无法下载。"
 
 #: src/download_list.cc:98 src/download_list.cc:346 src/gtk/download.cc:444
 msgid "Continue"
-msgstr ""
+msgstr "继续"
 
 #: src/download_list.cc:100 src/mine/cmine.cc:303 src/mine/cmine.cc:368
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: src/download_list.cc:214
 msgid "Total Progress: "
-msgstr ""
+msgstr "总进度："
 
 #: src/download_list.cc:243
 #, c-format
 msgid " [ %i%% ] (%sB/s, %s remaining)"
-msgstr ""
+msgstr " [ %i%% ]  (%sB/s, 剩下 %s)"
 
 #: src/download_list.cc:245
 #, c-format
 msgid " [ %i%% ] (stalled)"
-msgstr ""
+msgstr " [ %i%% ] (已停顿)"
 
 #: src/download_list.cc:247
 #, c-format
 msgid " [ %i%% ]"
-msgstr ""
+msgstr " [ %i%% ]"
 
 #: src/download_list.cc:265
 msgid "Downloading... "
-msgstr ""
+msgstr "正在下载... "
 
 #: src/download_list.cc:341 src/gtk/download.cc:441
 #, c-format
 msgid "Please insert the disc labeled \"%s\" into the drive \"%s\""
-msgstr ""
+msgstr "请将标号为 “%s” 的磁盘插入驱动器 “%s”"
 
 #: src/download_list.cc:348 src/gtk/download.cc:445
 msgid "Abort"
-msgstr ""
+msgstr "放弃"
 
 #: src/download_list.cc:406
 msgid "[IGNORED]"
-msgstr ""
+msgstr "[忽略]"
 
 #: src/download_list.cc:412
 msgid "[ERROR]"
-msgstr ""
+msgstr "[错误]"
 
 #: src/download_thread.h:138
 msgid "Attempt to start a download thread twice!"
-msgstr ""
+msgstr "第二次尝试启动下载线程！"
 
 #: src/edit_pkg_hier.cc:192
 msgid "No hierarchy information to edit"
-msgstr ""
+msgstr "没有层次信息可编辑"
 
 #: src/edit_pkg_hier.cc:294
 #, c-format
 msgid "Couldn't open \"%s\" for writing"
-msgstr ""
+msgstr "无法打开“%s”以写入"
 
 #: src/edit_pkg_hier.cc:340
 msgid "Unable to look up your home directory!"
-msgstr ""
+msgstr "无法查阅您的主目录！"
 
 #: src/generic/apt/aptcache.cc:271
 #, c-format
 msgid ""
 "Error parsing a user-tag for the package %s: unexpected end-of-line "
 "following %s."
-msgstr ""
+msgstr "解析软件包 %s 的用户标签时出错：%s 后有意外的行结束符。"
 
 #: src/generic/apt/aptcache.cc:288
 #, c-format
 msgid "Unterminated '\"' in the user-tags list of the package %s."
-msgstr ""
+msgstr "软件包 %s 的用户标签列表有未结束的'\"'。"
 
 #: src/generic/apt/aptcache.cc:392
 msgid "Can't open Aptitude extended state file"
-msgstr ""
+msgstr "无法打开 Aptitude 扩展状态文件"
 
 #: src/generic/apt/aptcache.cc:406 src/generic/apt/aptcache.cc:501
 #: src/generic/apt/aptcache.cc:503
 msgid "Reading extended state information"
-msgstr ""
+msgstr "正在读取扩展状态文件"
 
 #: src/generic/apt/aptcache.cc:509 src/generic/apt/aptcache.cc:591
 #: src/generic/apt/aptcache.cc:594
 msgid "Initializing package states"
-msgstr ""
+msgstr "正在初始化软件包状态"
 
 #: src/generic/apt/aptcache.cc:752
 msgid "Cannot open Aptitude state file"
-msgstr ""
+msgstr "无法打开 Aptitude 扩展状态文件"
 
 #: src/generic/apt/aptcache.cc:756 src/generic/apt/aptcache.cc:863
 #: src/generic/apt/aptcache.cc:866
 msgid "Writing extended state information"
-msgstr ""
+msgstr "正在编辑扩展状态信息"
 
 #: src/generic/apt/aptcache.cc:854
 msgid "Couldn't write state file"
-msgstr ""
+msgstr "不能写入状态文件"
 
 #: src/generic/apt/aptcache.cc:871
 msgid "Error writing state file"
-msgstr ""
+msgstr "写入状态文件时发生错误"
 
 #: src/generic/apt/aptcache.cc:889
 #, c-format
 msgid "failed to remove %s"
-msgstr ""
+msgstr "无法删除 %s"
 
 #: src/generic/apt/aptcache.cc:896
 #, c-format
 msgid "failed to rename %s to %s"
-msgstr ""
+msgstr "无法将 %s 改名为 %s"
 
 #: src/generic/apt/aptcache.cc:904
 #, c-format
 msgid "couldn't replace %s with %s"
-msgstr ""
+msgstr "无法用 %s 代替 %s"
 
 #: src/generic/apt/aptcache.cc:1525
 msgid "Unable to correct dependencies, some packages cannot be installed"
-msgstr ""
+msgstr "无法修正依赖关系，一些包无法安装"
 
 #: src/generic/apt/aptcache.cc:2172
 msgid "The list of sources could not be read."
-msgstr ""
+msgstr "无法读取软件源列表。"
 
 #: src/generic/apt/aptcache.cc:2179
 msgid "The package lists or status file could not be parsed or opened."
@@ -2626,7 +2627,7 @@ msgstr ""
 
 #: src/generic/apt/aptcache.cc:2182
 msgid "You may want to update the package lists to correct these missing files"
-msgstr ""
+msgstr "无法解析或打开软件包列表文件或状态文件。"
 
 #. ForTranslators: Set this string to the name of a configuration
 #. file in $pkgdatadir/aptitude that overrides defaults for your
@@ -2640,17 +2641,17 @@ msgstr ""
 #. also add your defaults file to pkgdata_DATA in Makefile.am.
 #: src/generic/apt/apt.cc:187
 msgid "Localized defaults|"
-msgstr ""
+msgstr "aptitude-defaults.zh_CN"
 
 #: src/generic/apt/apt.cc:260
 #, c-format
 msgid "%s is readable but not writable; unable to write configuration file."
-msgstr ""
+msgstr "%s 可读但不可写；无法写入配置文件。"
 
 #: src/generic/apt/apt.cc:305
 #, c-format
 msgid "Unable to replace %s with new configuration file"
-msgstr ""
+msgstr "无法用新的配置文件代替 %s"
 
 #: src/generic/apt/apt.cc:456
 msgid ""
@@ -2658,68 +2659,70 @@ msgid ""
 "tool is already installing packages.  Opening in read-only mode; any changes "
 "you make to the states of packages will NOT be preserved!"
 msgstr ""
+"无法锁定缓存文件；这通常意味着 dpkg 或另一个 apt 工具已经在安装软件包。正在以"
+"只读方式打开；您对软件包状态所作的任何改变都“不会”被保存！"
 
 #: src/generic/apt/apt.cc:1272
 msgid "foreign"
-msgstr ""
+msgstr "外部"
 
 #: src/generic/apt/apt.cc:1274
 msgid "same"
-msgstr ""
+msgstr "一样"
 
 #: src/generic/apt/apt.cc:1277
 msgid "allowed"
-msgstr ""
+msgstr "允许"
 
 #: src/generic/apt/apt.cc:1366
 msgid "main"
-msgstr ""
+msgstr "主要"
 
 #: src/generic/apt/apt.cc:1366
 msgid "contrib"
-msgstr ""
+msgstr "贡献"
 
 #: src/generic/apt/apt.cc:1366
 msgid "non-free"
-msgstr ""
+msgstr "不免费"
 
 #: src/generic/apt/apt.cc:1366
 msgid "non-US"
-msgstr ""
+msgstr "美国以外"
 
 #: src/generic/apt/aptitude_resolver.cc:441
 #, c-format
 msgid "Invalid hint \"%s\": expected an action, but found nothing."
-msgstr ""
+msgstr "提示无效 \"%s\": 需要一个动作, 不过没找到"
 
 #: src/generic/apt/aptitude_resolver.cc:466
 #, c-format
 msgid ""
 "Invalid hint \"%s\": expected a component name and a number, but found "
 "nothing."
-msgstr ""
+msgstr "提示无效 \"%s\": 需要一个零件名字和数字, 不过没找到"
 
 #: src/generic/apt/aptitude_resolver.cc:485
 #, c-format
 msgid ""
 "Invalid hint \"%s\": expected the numeric value following the component "
 "name, but found nothing."
-msgstr ""
+msgstr "提示无效 \"%s\": 需要零件名字在数字前, 不过没找到"
 
 #: src/generic/apt/aptitude_resolver.cc:505
 #, c-format
 msgid "Invalid hint \"%s\": the numeric component \"%s\" cannot be parsed."
-msgstr ""
+msgstr "提示无效 \"%s\": 数字部分 \"%s\" 解析不了."
 
 #: src/generic/apt/aptitude_resolver.cc:516
 #, c-format
 msgid "Invalid hint \"%s\": expected a level, but found nothing."
-msgstr ""
+msgstr "提示无效 \"%s\": 需要一个级别, 不过什么都没找到."
 
 #: src/generic/apt/aptitude_resolver.cc:538
 #, c-format
 msgid "Invalid hint \"%s\": expected a target, but found nothing."
-msgstr ""
+msgstr "提示无效 \"%s\": expected a target, but found nothing."
 
 #: src/generic/apt/aptitude_resolver.cc:565
 #, c-format
