@@ -2058,236 +2058,230 @@ msgstr "维护者："
 
 #: src/cmdline/cmdline_show.cc:430 src/pkg_info_screen.cc:137
 msgid "Architecture: "
-msgstr ""
+msgstr "架构："
 
 #: src/cmdline/cmdline_show.cc:433 src/pkg_info_screen.cc:139
 msgid "Uncompressed Size: "
-msgstr ""
+msgstr "未压缩大小："
 
 #: src/cmdline/cmdline_show.cc:437 src/pkg_info_screen.cc:138
 msgid "Compressed Size: "
-msgstr ""
+msgstr "压缩后大小："
 
 #: src/cmdline/cmdline_show.cc:439
 msgid "Filename: "
-msgstr ""
+msgstr "文件名："
 
 #: src/cmdline/cmdline_show.cc:441
 msgid "MD5sum: "
-msgstr ""
+msgstr "MD5sum: "
 
 #: src/cmdline/cmdline_show.cc:445 src/cmdline/cmdline_show.cc:448
 #: src/gtk/entityview.cc:606
 msgid "Archive"
-msgstr ""
+msgstr "存档"
 
 #: src/cmdline/cmdline_show.cc:453
 msgid "Depends"
-msgstr ""
+msgstr "依赖于"
 
 #: src/cmdline/cmdline_show.cc:455
 msgid "PreDepends"
-msgstr ""
+msgstr "预依赖于"
 
 #: src/cmdline/cmdline_show.cc:457 src/cmdline/cmdline_why.cc:299
 msgid "Recommends"
-msgstr ""
+msgstr "推荐"
 
 #: src/cmdline/cmdline_show.cc:459 src/cmdline/cmdline_why.cc:302
 msgid "Suggests"
-msgstr ""
+msgstr "建议"
 
 #: src/cmdline/cmdline_show.cc:461
 msgid "Conflicts"
-msgstr ""
+msgstr "冲突"
 
 #: src/cmdline/cmdline_show.cc:463
 msgid "Breaks"
-msgstr ""
+msgstr "破坏"
 
 #: src/cmdline/cmdline_show.cc:465
 msgid "Replaces"
-msgstr ""
+msgstr "代替"
 
 #: src/cmdline/cmdline_show.cc:467
 msgid "Obsoletes"
-msgstr ""
+msgstr "过期"
 
 #: src/cmdline/cmdline_show.cc:469
 msgid "Enhances"
-msgstr ""
+msgstr "增进"
 
 #: src/cmdline/cmdline_show.cc:471 src/cmdline/cmdline_why.cc:230
 #: src/cmdline/cmdline_why.cc:1632 src/gtk/dependency_chains_tab.cc:205
 msgid "Provides"
-msgstr ""
+msgstr "提供"
 
 #: src/cmdline/cmdline_show.cc:475 src/gtk/entitysummary.cc:369
 #: src/gtk/info.cc:716 src/gtk/previewtab.cc:238 src/pkg_info_screen.cc:102
 msgid "Description: "
-msgstr ""
+msgstr "描述："
 
 #: src/cmdline/cmdline_show.cc:481 src/pkg_info_screen.cc:107
 #: src/pkg_view.cc:259
 msgid "Homepage: "
-msgstr ""
+msgstr "主页："
 
 #: src/cmdline/cmdline_show.cc:575
 #, c-format
 msgid "Unable to locate package %s"
-msgstr ""
+msgstr "无法定位软件包 %s"
 
 #: src/cmdline/cmdline_show.cc:596
 #, c-format
 msgid "Unable to parse pattern %s"
-msgstr ""
+msgstr "无法分析模式 %s"
 
 #: src/cmdline/cmdline_simulate.cc:66
 #, c-format
 msgid "Would download/install/remove packages.\n"
-msgstr ""
+msgstr "将要下载/安装/卸载软件包。\n"
 
 #: src/cmdline/cmdline_simulate.cc:77
 msgid "Internal Error, Ordering didn't finish"
-msgstr ""
+msgstr "内部错误，排序未完成"
 
 #: src/cmdline/cmdline_update.cc:44 src/ui.cc:1711 src/ui.cc:1880
 msgid "Deleting obsolete downloaded files"
-msgstr ""
+msgstr "删除过期的已下载文件\n"
 
 #: src/cmdline/cmdline_update.cc:55
 #, c-format
 msgid "E: The update command takes no arguments\n"
-msgstr ""
+msgstr "E: update 命令不接受任何参数\n"
 
 #: src/cmdline/cmdline_user_tag.cc:65
 #, c-format
 msgid "Adding user tag \"%s\" to the package \"%s\".\n"
-msgstr ""
+msgstr "添加用户标签 “%s” 到软件包“%s”。\n"
 
 #: src/cmdline/cmdline_user_tag.cc:72
 #, c-format
 msgid "Removing user tag \"%s\" from the package \"%s\".\n"
-msgstr ""
+msgstr "将用户标签 “%s” 移除出软件包“%s”。\n"
 
 #: src/cmdline/cmdline_user_tag.cc:104
 #, c-format
 msgid "%s: too few arguments; expected at least a tag name and a package.\n"
-msgstr ""
+msgstr "%s: 参数太少；期待至少一个标签名称和一个软件包名称。\n"
 
 #: src/cmdline/cmdline_util.cc:167
 #, c-format
 msgid "No candidate version found for %s\n"
-msgstr ""
+msgstr "未发现 %s 的候选版本\n"
 
 #: src/cmdline/cmdline_util.cc:169
 #, c-format
 msgid "No current or candidate version found for %s\n"
-msgstr ""
+msgstr "未发现 %s 的已安装或候选版本\n"
 
 #: src/cmdline/cmdline_util.cc:193
 #, c-format
 msgid "Unable to find an archive \"%s\" for the package \"%s\"\n"
-msgstr ""
+msgstr "无法找到存档“%s”，该存档用于软件包“%s”\n"
 
 #: src/cmdline/cmdline_util.cc:203
 #, c-format
 msgid "Unable to find a version \"%s\" for the package \"%s\"\n"
-msgstr ""
+msgstr "无法找到“%s”版本的软件包“%s”\n"
 
 #: src/cmdline/cmdline_util.cc:209
 #, c-format
 msgid "Internal error: invalid value %i passed to cmdline_find_ver!\n"
-msgstr ""
+msgstr "内部错误：非法的数值 %i 被传递给 cmdline_find_ver！\n"
 
 #: src/cmdline/cmdline_util.cc:239
 #, c-format
 msgid "You cannot specify both an archive and a version for a package\n"
-msgstr ""
+msgstr "您不能为一个软件包同时指定存档和版本号\n"
 
 #: src/cmdline/cmdline_util.cc:273
 #, c-format
 msgid "Couldn't find task '%s'"
-msgstr ""
+msgstr "找不到任务 '%s'"
 
 #: src/cmdline/cmdline_util.cc:361
 #, c-format
 msgid "%d broken [%+d]"
 msgid_plural "%d broken [%+d]"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d 个被破坏 [%+d]"
 
 #: src/cmdline/cmdline_util.cc:375
 #, c-format
 msgid "%d update [%+d]"
-msgid_plural "%d updates [%+d]"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d 个被更新 [%+d]"
 
 #: src/cmdline/cmdline_util.cc:389
 #, c-format
 msgid "%d new [%+d]"
 msgid_plural "%d new [%+d]"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d 个新软件包 [%+d]"
 
 #: src/cmdline/cmdline_util.cc:400
 #, c-format
 msgid "Current status: %F."
-msgstr ""
+msgstr "当前状态：%F。"
 
 #: src/cmdline/cmdline_util.cc:411
 #, c-format
 msgid "There is %d newly obsolete package."
 msgid_plural "There are %d newly obsolete packages."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "有 %d 个新被废弃的软件包。"
 
 #: src/cmdline/cmdline_util.cc:423
 #, c-format
 msgid "There is %d newly obsolete package: "
 msgid_plural "There are %d newly obsolete packages: "
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "有 %d 个新被废弃的软件包："
 
 #: src/cmdline/cmdline_versions.cc:125
 #, c-format
 msgid "Package %s:"
-msgstr ""
+msgstr "软件包 %s："
 
 #: src/cmdline/cmdline_versions.cc:152 src/cmdline/cmdline_versions.cc:191
 #, c-format
 msgid "Source package %s:"
-msgstr ""
+msgstr "源码软件包 %s："
 
 #: src/cmdline/cmdline_versions.cc:213
 #, c-format
 msgid "Archive %s:"
-msgstr ""
+msgstr "存档 %s："
 
 #: src/cmdline/cmdline_versions.cc:502
 msgid "--group-by|archive"
-msgstr ""
+msgstr "--group-by|archive"
 
 #: src/cmdline/cmdline_versions.cc:506
 msgid "--group-by|auto"
-msgstr ""
+msgstr "--group-by|auto"
 
 #: src/cmdline/cmdline_versions.cc:510
 msgid "--group-by|none"
-msgstr ""
+msgstr "--group-by|none"
 
 #: src/cmdline/cmdline_versions.cc:514
 msgid "--group-by|package"
-msgstr ""
+msgstr "--group-by|package"
 
 #: src/cmdline/cmdline_versions.cc:518
 msgid "--group-by|source-package"
-msgstr ""
+msgstr "--group-by|source-package"
 
 #: src/cmdline/cmdline_versions.cc:522
 msgid "--group-by|source-version"
-msgstr ""
+msgstr "--group-by|source-version"
 
 #. ForTranslators: --group-by is the argument name and shouldn't
 #. be translated.
