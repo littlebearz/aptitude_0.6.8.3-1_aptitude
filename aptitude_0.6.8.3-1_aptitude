@@ -1775,51 +1775,53 @@ msgstr "下列动作将解决这些依赖关系："
 
 #: src/cmdline/cmdline_resolver.cc:915
 msgid "Accept this solution? [Y/n/q/?] "
-msgstr ""
+msgstr "是否接受该解决方案？[Y/n/q/?] "
 
 #: src/cmdline/cmdline_resolver.cc:942 src/cmdline/cmdline_resolver.cc:1077
 msgid "Abandoning all efforts to resolve these dependencies."
-msgstr ""
+msgstr "放弃解决这些依赖关系的全部努力。"
 
 #: src/cmdline/cmdline_resolver.cc:945
 msgid ""
 "Abandoning automatic dependency resolution and reverting to manual "
 "resolution."
-msgstr ""
+msgstr "放弃自动依赖解决方案并恢复到手动解决方案。"
 
 #: src/cmdline/cmdline_resolver.cc:978
 msgid "The following commands are available:"
-msgstr ""
+msgstr "下列命令可选："
 
 #: src/cmdline/cmdline_resolver.cc:999 src/ui.cc:2316
 msgid "File to write resolver state to: "
-msgstr ""
+msgstr "将依赖关系解决状态写入文件："
 
 #: src/cmdline/cmdline_resolver.cc:1031
 msgid "Invalid response; please enter one of the following commands:"
-msgstr ""
+msgstr "无效响应；请输入下列命令之一："
 
 #: src/cmdline/cmdline_resolver.cc:1051
 msgid "No solution found within the allotted time.  Try harder? [Y/n] "
-msgstr ""
+msgstr "在限定的时间内没能找到解决方案。加把劲再试试？[Y/n]"
 
 #: src/cmdline/cmdline_resolver.cc:1080
 msgid "Invalid response; please enter 'y' or 'n'."
-msgstr ""
+msgstr "非法响应；请输入“y”或者“n”。"
 
 #: src/cmdline/cmdline_resolver.cc:1089
 msgid "Unable to resolve dependencies!  Giving up..."
-msgstr ""
+msgstr "未能解决依赖关系！放弃中..."
 
 #: src/cmdline/cmdline_resolver.cc:1095
 msgid "*** No more solutions available ***"
-msgstr ""
+msgstr "*** 没有更多的解决方案了 ***"
 
 #: src/cmdline/cmdline_resolver.cc:1114
 msgid ""
 "*** ERROR: search aborted by fatal exception.  You may continue\n"
 "           searching, but some solutions will be unreachable."
 msgstr ""
+"*** 错误：搜索因致命异常被中止。您可以继续搜索，\n"
+"          但无法找到某些解决方案。"
 
 #: src/cmdline/cmdline_resolver.cc:1191
 #, c-format
@@ -1829,227 +1831,230 @@ msgid ""
 "  You may be able to solve this problem by increasing\n"
 "  Aptitude::ProblemResolver::StepLimit (currently %d)."
 msgstr ""
+"无法为此更新解决依赖关系，原因是解决器超时。\n"
+"  您或许可以这样解决这个问题：增加\n"
+"  Aptitude::ProblemResolver::StepLimit (现在是 %d)"
 
 #: src/cmdline/cmdline_resolver.cc:1201
 msgid "Unable to resolve dependencies for the upgrade: no solution found."
-msgstr ""
+msgstr "未能解决此升级的依赖关系：未找到解决方案。"
 
 #: src/cmdline/cmdline_resolver.cc:1207
 #, c-format
 msgid "Unable to resolve dependencies for the upgrade: %s"
-msgstr ""
+msgstr "无法解决此更新的依赖关系：%s。"
 
 #: src/cmdline/cmdline_search.cc:198 src/cmdline/cmdline_versions.cc:567
 #, c-format
 msgid "iconv of %s failed.\n"
-msgstr ""
+msgstr "用 iconv 转换 %s 失败。\n"
 
 #: src/cmdline/cmdline_search.cc:215
 #, c-format
 msgid "search: You must provide at least one search term\n"
-msgstr ""
+msgstr "查找：您必须提供至少一个查找项\n"
 
 #: src/cmdline/cmdline_show_broken.cc:81
 #, c-format
 msgid "but %s is to be installed."
-msgstr ""
+msgstr "但是 %s 将被安装。"
 
 #: src/cmdline/cmdline_show_broken.cc:84
 #, c-format
 msgid "but %s is installed and it is kept back."
-msgstr ""
+msgstr "但是 %s 已被安装并且被保持不升级。"
 
 #: src/cmdline/cmdline_show_broken.cc:87
 #, c-format
 msgid "but %s is installed."
-msgstr ""
+msgstr "但是 %s 已安装。"
 
 #: src/cmdline/cmdline_show_broken.cc:94
 #, c-format
 msgid "but it is not installable."
-msgstr ""
+msgstr "但是它不可安装的。"
 
 #: src/cmdline/cmdline_show_broken.cc:96
 #, c-format
 msgid "but it is not going to be installed."
-msgstr ""
+msgstr "但是它将不会安装。"
 
 #: src/cmdline/cmdline_show_broken.cc:101
 #, c-format
 msgid " which is a virtual package."
-msgstr ""
+msgstr " 这是一个虚拟软件包。"
 
 #: src/cmdline/cmdline_show_broken.cc:104
 #, c-format
 msgid " or"
-msgstr ""
+msgstr " 或者"
 
 #: src/cmdline/cmdline_show_broken.cc:127
 #, c-format
 msgid "The following packages have unmet dependencies:\n"
-msgstr ""
+msgstr "下列软件包存在未满足的依赖关系：\n"
 
 #: src/cmdline/cmdline_show.cc:198 src/cmdline/cmdline_show.cc:448
 #: src/cmdline/cmdline_versions.cc:208 src/gtk/resolver.cc:1192
 #: src/solution_fragment.cc:68
 msgid "<NULL>"
-msgstr ""
+msgstr "<NULL>"
 
 #: src/cmdline/cmdline_show.cc:215 src/cmdline/cmdline_show.cc:220
 #: src/qt/widgets/packages_tab.cc:73
 msgid "not installed"
-msgstr ""
+msgstr "未安装"
 
 #: src/cmdline/cmdline_show.cc:222 src/pkg_columnizer.cc:250
 #: src/pkg_ver_item.cc:227
 msgid "unpacked"
-msgstr ""
+msgstr "未解包的"
 
 #: src/cmdline/cmdline_show.cc:224
 msgid "partially configured"
-msgstr ""
+msgstr "部分配置"
 
 #: src/cmdline/cmdline_show.cc:226
 msgid "partially installed"
-msgstr ""
+msgstr "部分安装"
 
 #: src/cmdline/cmdline_show.cc:228
 msgid "not installed (configuration files remain)"
-msgstr ""
+msgstr "未安装(配置文件保留)"
 
 #: src/cmdline/cmdline_show.cc:231
 msgid "awaiting trigger processing by other package(s)"
-msgstr ""
+msgstr "等待其他软件包触发处理"
 
 #: src/cmdline/cmdline_show.cc:233
 msgid "awaiting trigger processing"
-msgstr ""
+msgstr "等待触发处理"
 
 #: src/cmdline/cmdline_show.cc:236 src/pkg_columnizer.cc:258
 #: src/pkg_ver_item.cc:235 src/qt/widgets/packages_tab.cc:72
 msgid "installed"
-msgstr ""
+msgstr "已安装"
 
 #: src/cmdline/cmdline_show.cc:259
 #, c-format
 msgid "%s; will be purged because nothing depends on it"
-msgstr ""
+msgstr "%s；将被清除因为没有任何其它软件包依赖于它"
 
 #: src/cmdline/cmdline_show.cc:261 src/cmdline/cmdline_show.cc:357
 #, c-format
 msgid "%s; will be purged"
-msgstr ""
+msgstr "%s；将被清除"
 
 #: src/cmdline/cmdline_show.cc:266
 #, c-format
 msgid "%s; will be removed because nothing depends on it"
-msgstr ""
+msgstr "%s；将被删除因为没有任何其它软件包依赖于它"
 
 #: src/cmdline/cmdline_show.cc:268
 #, c-format
 msgid "%s; will be removed"
-msgstr ""
+msgstr "%s；将被删除"
 
 #: src/cmdline/cmdline_show.cc:286
 #, c-format
 msgid "%s%s; will be downgraded [%s -> %s]"
-msgstr ""
+msgstr "%s%s；将被降级 [%s -> %s]"
 
 #: src/cmdline/cmdline_show.cc:289
 #, c-format
 msgid "%s%s; will be upgraded [%s -> %s]"
-msgstr ""
+msgstr "%s%s；将被升级 [%s -> %s]"
 
 #: src/cmdline/cmdline_show.cc:298
 msgid "not a real package"
-msgstr ""
+msgstr "不是一个真实的软件包"
 
 #: src/cmdline/cmdline_show.cc:311
 msgid " [held]"
-msgstr ""
+msgstr " [保持]"
 
 #: src/cmdline/cmdline_show.cc:325
 #, c-format
 msgid "%s%s; will be installed"
-msgstr ""
+msgstr "%s%s；将被安装"
 
 #: src/cmdline/cmdline_show.cc:327
 #, c-format
 msgid "%s%s; will be installed automatically"
-msgstr ""
+msgstr "%s；版本 %s 将被自动安装"
 
 #: src/cmdline/cmdline_show.cc:347
 #, c-format
 msgid "%s; version %s will be installed"
-msgstr ""
+msgstr "%s；版本 %s 将被安装"
 
 #: src/cmdline/cmdline_show.cc:351
 #, c-format
 msgid "%s; version %s will be installed automatically"
-msgstr ""
+msgstr "%s；版本 %s 将被自动安装"
 
 #: src/cmdline/cmdline_show.cc:377 src/cmdline/cmdline_show.cc:400
 msgid "Package: "
-msgstr ""
+msgstr "软件包："
 
 #: src/cmdline/cmdline_show.cc:378 src/cmdline/cmdline_show.cc:408
 #: src/pkg_columnizer.cc:92
 msgid "State"
-msgstr ""
+msgstr "状态"
 
 #: src/cmdline/cmdline_show.cc:379 src/cmdline/cmdline_show.cc:472
 msgid "Provided by"
-msgstr ""
+msgstr "提供者："
 
 #: src/cmdline/cmdline_show.cc:402 src/pkg_info_screen.cc:120
 msgid "Essential: "
-msgstr ""
+msgstr "基本的："
 
 #: src/cmdline/cmdline_show.cc:402 src/cmdline/cmdline_show.cc:406
 #: src/cmdline/cmdline_show.cc:417 src/pkg_info_screen.cc:120
 msgid "yes"
-msgstr ""
+msgstr "是"
 
 #: src/cmdline/cmdline_show.cc:406
 msgid "New"
-msgstr ""
+msgstr "新"
 
 #: src/cmdline/cmdline_show.cc:411 src/gtk/gui.cc:98
 msgid "Forbidden version"
-msgstr ""
+msgstr "被禁止的版本"
 
 #: src/cmdline/cmdline_show.cc:415
 msgid "Automatically installed"
-msgstr ""
+msgstr "自动安装"
 
 #: src/cmdline/cmdline_show.cc:417
 msgid "no"
-msgstr ""
+msgstr "否"
 
 #: src/cmdline/cmdline_show.cc:421 src/pkg_info_screen.cc:125
 msgid "Multi-Arch: "
-msgstr ""
+msgstr "多架构"
 
 #: src/cmdline/cmdline_show.cc:423 src/gtk/entitysummary.cc:361
 #: src/gtk/previewtab.cc:230
 msgid "Version: "
-msgstr ""
+msgstr "版本号："
 
 #: src/cmdline/cmdline_show.cc:424 src/pkg_info_screen.cc:134
 msgid "Priority: "
-msgstr ""
+msgstr "优先级："
 
 #: src/cmdline/cmdline_show.cc:425 src/cmdline/cmdline_show.cc:427
 msgid "N/A"
-msgstr ""
+msgstr "不可用"
 
 #: src/cmdline/cmdline_show.cc:426 src/pkg_info_screen.cc:135
 msgid "Section: "
-msgstr ""
+msgstr "部分："
 
 #: src/cmdline/cmdline_show.cc:428 src/pkg_info_screen.cc:136
 msgid "Maintainer: "
-msgstr ""
+msgstr "维护者："
 
 #: src/cmdline/cmdline_show.cc:430 src/pkg_info_screen.cc:137
 msgid "Architecture: "
