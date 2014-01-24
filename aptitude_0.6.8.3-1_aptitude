@@ -2965,34 +2965,34 @@ msgstr "未知多结构格式： %s"
 #: src/generic/apt/matching/parse.cc:370
 #, c-format
 msgid "Unterminated literal string after %s"
-msgstr ""
+msgstr "无法对 %s 之后的未结束的文字字符串"
 
 #: src/generic/apt/matching/parse.cc:467
 #, c-format
 msgid "Unknown priority %s"
-msgstr ""
+msgstr "未知的优先级：%s"
 
 #: src/generic/apt/matching/parse.cc:486
 #, c-format
 msgid "Match pattern ends unexpectedly (expected '%c')."
-msgstr ""
+msgstr "匹配模式异常结束(预期为'%c')。"
 
 #: src/generic/apt/matching/parse.cc:489
 #, c-format
 msgid "Expected '%c', got '%c'."
-msgstr ""
+msgstr "预期得到“%c”，却得到“%c”。"
 
 #: src/generic/apt/matching/parse.cc:861
 #: src/generic/apt/matching/parse.cc:1306
 #: src/generic/apt/matching/parse.cc:1346
 #, c-format
 msgid "Unknown dependency type: %s"
-msgstr ""
+msgstr "未知依赖类型：%s"
 
 #: src/generic/apt/matching/parse.cc:914
 #, c-format
 msgid "Unknown term type: \"%s\"."
-msgstr ""
+msgstr "未知的终端类型：“%s”。"
 
 #. ForTranslators: Question marks ("?") are used as prefix for function names.
 #. Leave the question marks attached to the string placeholders.
@@ -3002,44 +3002,45 @@ msgid ""
 "The ?%s term must be used in a \"wide\" context (a top-level context, or a "
 "context enclosed by ?%s)."
 msgstr ""
+"?%s 匹配器必须在“宽”上下文中使用(顶层上下文，或者被 ?%s 包含的上下文)。"
 
 #: src/generic/apt/matching/parse.cc:1164
 msgid "Unmatched '('"
-msgstr ""
+msgstr "不匹配的“(”"
 
 #: src/generic/apt/matching/parse.cc:1312
 msgid "Provides: cannot be broken"
-msgstr ""
+msgstr "“提供”类型不可能损坏"
 
 #: src/generic/apt/matching/parse.cc:1370
 #, c-format
 msgid "Unknown pattern type: %c"
-msgstr ""
+msgstr "未知的模式类型：%c"
 
 #: src/generic/apt/matching/parse.cc:1390
 msgid "Can't search for \"\""
-msgstr ""
+msgstr "无法搜索“”"
 
 #: src/generic/apt/matching/parse.cc:1418
 msgid "Unexpected empty expression"
-msgstr ""
+msgstr "意外的空表达式"
 
 #: src/generic/apt/matching/parse.cc:1447
 #, c-format
 msgid "Badly formed expression: expected '|', got '%c'"
-msgstr ""
+msgstr "错误格式的表达式：期望“|”，却获得了“%c”"
 
 #: src/generic/apt/matching/parse.cc:1494
 msgid "Unexpected ')'"
-msgstr ""
+msgstr "意外的“)”"
 
 #: src/generic/apt/parse_dpkg_status.cc:72
 msgid "<aptitude: internal parse error: no apostrophe>"
-msgstr ""
+msgstr "<aptitude: 内部错误: 无省略号>"
 
 #: src/generic/apt/parse_dpkg_status.cc:80
 msgid "<aptitude: internal parse error: missing terminal apostrophe>"
-msgstr ""
+msgstr "<aptitude: 内部错误: 结尾的省略号丢失>"
 
 #: src/generic/apt/pkg_acqfile.cc:50
 #, c-format
@@ -3047,41 +3048,43 @@ msgid ""
 "I wasn't able to locate a file for the %s package. This might mean you need "
 "to manually fix this package. (due to missing arch)"
 msgstr ""
+"无法找到 %s 软件包的一个文件。这可能意味着您需要手动修复该软件包。(由于缺失的"
+"体系)"
 
 #: src/generic/apt/pkg_acqfile.cc:99
 #, c-format
 msgid ""
 "The package index files are corrupted. No Filename: field for package %s."
-msgstr ""
+msgstr "软件包索引文件被损坏。软件包 %s 无 Filename：域。"
 
 #: src/generic/apt/pkg_changelog.cc:442 src/generic/apt/pkg_changelog.cc:596
 #: src/view_changelog.cc:272
 #, c-format
 msgid "Changelog of %s"
-msgstr ""
+msgstr "%s 的变更日志"
 
 #: src/generic/apt/pkg_changelog.cc:572 src/generic/apt/pkg_changelog.cc:577
 #, c-format
 msgid "Failed to download changelogs: %s"
-msgstr ""
+msgstr "下载变更日志失败：%s"
 
 #: src/generic/apt/pkg_changelog.cc:582
 msgid "Failed to download changelogs: unexpected exception."
-msgstr ""
+msgstr "下载变更日志失败：非预期的异常。"
 
 #: src/generic/apt/pkg_hier.cc:28 src/generic/apt/pkg_hier.cc:49
 #, c-format
 msgid "Warning: group %s is involved in a cycle"
-msgstr ""
+msgstr "警告：%s 组在一个循环中"
 
 #: src/generic/apt/pkg_hier.cc:143
 #, c-format
 msgid "Cannot open package hierarchy file %s"
-msgstr ""
+msgstr "无法打开软件包层次文件 %s"
 
 #: src/generic/apt/pkg_hier.cc:164
 msgid "Global block encountered after first record, ignoring"
-msgstr ""
+msgstr "第一条记录后遇到全局块，忽略之"
 
 #: src/generic/apt/pkg_hier.cc:177
 msgid "Bad record encountered (no Package or Group entry), skipping"
