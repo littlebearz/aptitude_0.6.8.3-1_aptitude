@@ -3088,132 +3088,132 @@ msgstr "第一条记录后遇到全局块，忽略之"
 
 #: src/generic/apt/pkg_hier.cc:177
 msgid "Bad record encountered (no Package or Group entry), skipping"
-msgstr ""
+msgstr "遇到错误记录(无包或者组条目)，跳过它"
 
 #: src/generic/apt/pkg_hier.cc:179
 #, c-format
 msgid "Bad record encountered (Package=%s, Group=%s), skipping"
-msgstr ""
+msgstr "遇到错误记录(包=%s，组=%s)条目，跳过它"
 
 #: src/generic/apt/pkg_hier.cc:242
 #, c-format
 msgid "Multiple descriptions found for group %s, ignoring one"
-msgstr ""
+msgstr "发现组 %s 的多个描述，忽略其中一个"
 
 #: src/generic/apt/resolver_manager.cc:489
 #, c-format
 msgid "Unable to create the output file: child killed by signal %d."
-msgstr ""
+msgstr "无法创建输出文件：子进程被信号 %d 杀死。"
 
 #: src/generic/apt/resolver_manager.cc:491
 #, c-format
 msgid "Unable to create the output file: child exited with status %d."
-msgstr ""
+msgstr "无法创建输出文件：子进程退出状态为 %d。"
 
 #: src/generic/apt/resolver_manager.cc:910
 #: src/generic/apt/resolver_manager.cc:912
 #, c-format
 msgid "Failed to parse the cost settings string: %s"
-msgstr ""
+msgstr "无法分析模式 %s"
 
 #: src/generic/apt/tags.cc:218 src/generic/apt/tags.cc:225
 msgid "Building tag database"
-msgstr ""
+msgstr "创建标签数据库"
 
 #: src/generic/apt/tags.cc:400
 msgid "legacy"
-msgstr ""
+msgstr "古老"
 
 #: src/generic/apt/tags.cc:430 src/generic/apt/tags.cc:445
 #: src/generic/apt/tags.cc:476 src/generic/apt/tags.cc:491
 msgid "No tag descriptions are available."
-msgstr ""
+msgstr "没标签介绍提供"
 
 #: src/generic/apt/tags.cc:436 src/generic/apt/tags.cc:451
 #: src/generic/apt/tags.cc:482 src/generic/apt/tags.cc:497
 #, c-format
 msgid "No description available for %s."
-msgstr ""
+msgstr "%s 无描述。"
 
 #: src/generic/apt/tasks.cc:123
 #, c-format
 msgid "Unhandled packages method in task %s: %s"
-msgstr ""
+msgstr "不可处理安装包过程在程序 %s: %s"
 
 #: src/generic/apt/tasks.cc:484
 msgid "Reading task descriptions"
-msgstr ""
+msgstr "正在读取软件集说明档"
 
 #: src/generic/controllers/search_input.cc:110 src/gtk/packagestab.cc:60
 msgid "Parse error"
-msgstr ""
+msgstr "解析错误"
 
 #: src/generic/problemresolver/exceptions.h:105
 msgid "Cost increments must be strictly positive."
-msgstr ""
+msgstr "价格差别必须是正的"
 
 #: src/generic/problemresolver/exceptions.h:114
 msgid "The maximum cost value was exceeded."
-msgstr ""
+msgstr "超过最大价格数"
 
 #: src/generic/problemresolver/exceptions.h:124
 msgid "A single cost level was both added and lower-bounded."
-msgstr ""
+msgstr "一个单独价格级别加"
 
 #: src/generic/util/parsers.h:735
 #, c-format
 msgid "Expected '%s', but got EOF."
-msgstr ""
+msgstr "预期得到 “%s”，却得到 EOF。"
 
 #: src/generic/util/parsers.h:737
 #, c-format
 msgid "Expected '%s', but got '%s'."
-msgstr ""
+msgstr "预期得到 “%s”，却得到 “%s”。"
 
 #: src/generic/util/parsers.h:778
 msgid "Expected any character, but got EOF."
-msgstr ""
+msgstr "预期得到一个字符，但却得到 EOF。"
 
 #: src/generic/util/parsers.h:791
 msgid "any character"
-msgstr ""
+msgstr "任意字符"
 
 #: src/generic/util/parsers.h:832
 #, c-format
 msgid "Expected %s, but got EOF."
-msgstr ""
+msgstr "预期得到 “%s”，却得到 EOF。"
 
 #: src/generic/util/parsers.h:843
 #, c-format
 msgid "Expected %s, but got '%c'."
-msgstr ""
+msgstr "预期得到 %s，却得到 “%c”。"
 
 #: src/generic/util/parsers.h:1017
 msgid "Expected an integer, got EOF."
-msgstr ""
+msgstr "预期得到一个整数，却得到 EOF。"
 
 #: src/generic/util/parsers.h:1026
 msgid "Expected an integer following '-', got EOF."
-msgstr ""
+msgstr "期望得到一个整数，然后是“-”，却得到 EOF。"
 
 #: src/generic/util/parsers.h:1032
 #, c-format
 msgid "Expected an integer, got '%c'."
-msgstr ""
+msgstr "预期得到一个整数，却得到 “%c”"
 
 #: src/generic/util/parsers.h:1046 src/generic/util/parsers.h:1054
 #, c-format
 msgid "Invalid integer: \"%s\"."
-msgstr ""
+msgstr "无效的整数：%s。"
 
 #: src/generic/util/parsers.h:1077
 #, c-format
 msgid "Expected EOF, got '%c'."
-msgstr ""
+msgstr "预期得到 EOF，却得到“%c”。"
 
 #: src/generic/util/parsers.h:1191
 msgid "anything"
-msgstr ""
+msgstr "任意"
 
 #. ForTranslators: this is used to generate an error
 #. message; a brief description of what we expected to see
@@ -3222,184 +3222,184 @@ msgstr ""
 #: src/generic/util/parsers.h:2085
 #, c-format
 msgid "Expected %s"
-msgstr ""
+msgstr "预期得到 %s"
 
 #: src/generic/util/parsers.h:2007
 msgid " or "
-msgstr ""
+msgstr " 或者 "
 
 #: src/generic/util/parsers.h:2770
 #, c-format
 msgid "Unexpected %s"
-msgstr ""
+msgstr "意外的 %s"
 
 #: src/generic/util/temp.cc:201 src/generic/util/temp.cc:275
 #, c-format
 msgid "Unable to create temporary directory from template \"%s\": %s"
-msgstr ""
+msgstr "无法为模板 “%s” 创建临时文件夹：%s"
 
 #: src/generic/util/temp.cc:342
 #, c-format
 msgid "Unable to create temporary filename from prefix \"%s\""
-msgstr ""
+msgstr "无法从前缀“%s”创建临时文件名"
 
 #: src/generic/util/util.cc:364
 #, c-format
 msgid "Unable to stat \"%s\""
-msgstr ""
+msgstr "无法获得 “%s” 的信息"
 
 #: src/generic/util/util.cc:370
 #, c-format
 msgid "Unable to remove \"%s\""
-msgstr ""
+msgstr "无法删除 “%s”"
 
 #: src/generic/util/util.cc:380
 #, c-format
 msgid "Unable to list files in \"%s\""
-msgstr ""
+msgstr "无法列出 “%s” 中的文件"
 
 #: src/generic/util/util.cc:397
 #, c-format
 msgid "Failure closing directory \"%s\""
-msgstr ""
+msgstr "无法关闭文件夹 “%s”"
 
 #: src/generic/util/util.cc:403
 #, c-format
 msgid "Unable to remove directory \"%s\""
-msgstr ""
+msgstr "无法删除目录 “%s”"
 
 #: src/gtk/aptitude.glade:6 src/gtk/aptitude.glade:2251
 #: src/qt/windows/main_window.cc:44
 msgid "Aptitude Package Manager"
-msgstr ""
+msgstr "Aptitude 包管理器"
 
 #: src/gtk/aptitude.glade:19 src/gtk/aptitude.glade:2264
 msgid "_File"
-msgstr ""
+msgstr "文件(_F)"
 
 #: src/gtk/aptitude.glade:28 src/gtk/aptitude.glade:2274 src/ui.cc:2347
 msgid "Perform all pending installs and removals"
-msgstr ""
+msgstr "执行所有等待执行的安装和卸载任务"
 
 #: src/gtk/aptitude.glade:38 src/gtk/aptitude.glade:2285 src/ui.cc:2350
 msgid "Check for new versions of packages"
-msgstr ""
+msgstr "检查新版本的软件包"
 
 #: src/gtk/aptitude.glade:53 src/gtk/aptitude.glade:2301 src/ui.cc:2355
 msgid "Mark all upgradable packages which are not held for upgrade"
-msgstr ""
+msgstr "为所有未被保持现状的软件包加上升级标记"
 
 #: src/gtk/aptitude.glade:63 src/gtk/aptitude.glade:2312 src/ui.cc:2360
 msgid "Forget which packages are \"new\""
-msgstr ""
+msgstr "忘记哪些软件包是“新”的"
 
 #: src/gtk/aptitude.glade:72 src/gtk/aptitude.glade:2322 src/ui.cc:2364
 msgid "Cancel all pending installations, removals, holds, and upgrades."
-msgstr ""
+msgstr "取消所有等待执行的安装、卸载、保持和升级任务"
 
 #: src/gtk/aptitude.glade:81 src/gtk/aptitude.glade:2332 src/ui.cc:2368
 msgid "Delete package files which were previously downloaded"
-msgstr ""
+msgstr "删除以前下载的软件包文件"
 
 #: src/gtk/aptitude.glade:90 src/gtk/aptitude.glade:2342 src/ui.cc:2372
 msgid "Delete package files which can no longer be downloaded"
-msgstr ""
+msgstr "删除无法再下载的软件包文件"
 
 #: src/gtk/aptitude.glade:104 src/gtk/aptitude.glade:2357 src/ui.cc:2379
 msgid "Reload the package cache"
-msgstr ""
+msgstr "重新载入软件包缓存"
 
 #: src/gtk/aptitude.glade:118 src/gtk/aptitude.glade:2372 src/ui.cc:2389
 msgid "Restart the program as root; your settings will be preserved"
-msgstr ""
+msgstr "用root用户从新启动软件；你的设置会被保存的"
 
 #: src/gtk/aptitude.glade:127 src/gtk/aptitude.glade:2382 src/ui.cc:2392
 msgid "Exit the program"
-msgstr ""
+msgstr "离开程序"
 
 #: src/gtk/aptitude.glade:139 src/gtk/aptitude.glade:2394
 msgid "E_dit"
-msgstr ""
+msgstr "编辑(_D)"
 
 #: src/gtk/aptitude.glade:148 src/gtk/aptitude.glade:2404 src/ui.cc:2399
 msgid "Undo the last package operation or group of operations"
-msgstr ""
+msgstr "忏悔最近一次或者一组软件包操作"
 
 #: src/gtk/aptitude.glade:197 src/gtk/aptitude.glade:2453
 msgid "_Package"
-msgstr ""
+msgstr "软件包(_P)"
 
 #: src/gtk/aptitude.glade:209 src/gtk/aptitude.glade:2465
 msgid "_View"
-msgstr ""
+msgstr "视图(_V)"
 
 #: src/gtk/aptitude.glade:218 src/gtk/aptitude.glade:2475
 msgid "Change which columns are visible in the currently active view."
-msgstr ""
+msgstr "更改在当前活动视图中那些列可见。"
 
 #: src/gtk/aptitude.glade:232 src/gtk/aptitude.glade:2490
 msgid ""
 "View errors that have occurred in the apt system since the program was "
 "started."
-msgstr ""
+msgstr "查看程序启动之后 apt 系统发生的错误。"
 
 #: src/gtk/aptitude.glade:241 src/gtk/aptitude.glade:2500
 msgid "Find chains of dependencies linking one package to another."
-msgstr ""
+msgstr "找出一个包和其它包之间的依赖关系链。"
 
 #: src/gtk/aptitude.glade:288 src/gtk/aptitude.glade:2547
 msgid "_Help"
-msgstr ""
+msgstr "帮助(_H)"
 
 #: src/gtk/aptitude.glade:317 src/gtk/aptitude.glade:2576
 #: src/gtk/dashboardtab.cc:740 src/gtk/gui.cc:1603 src/gtk/gui.cc:1801
 msgid "Dashboard"
-msgstr ""
+msgstr "仪表盘"
 
 #: src/gtk/aptitude.glade:336 src/gtk/aptitude.glade:2595
 msgid "Update"
-msgstr ""
+msgstr "更新列表"
 
 #: src/gtk/aptitude.glade:347 src/gtk/aptitude.glade:2606 src/gtk/gui.cc:1323
 #: src/qt/tabs_manager.cc:241 src/ui.cc:854 src/ui.cc:856 src/ui.cc:901
 #: src/ui.cc:903 src/ui.cc:929 src/ui.cc:931 src/ui.cc:952 src/ui.cc:954
 msgid "Packages"
-msgstr ""
+msgstr "软件包"
 
 #: src/gtk/aptitude.glade:358 src/gtk/aptitude.glade:2617 src/gtk/gui.cc:1033
 #: src/gtk/previewtab.cc:118 src/qt/tabs_manager.cc:220 src/ui.cc:1395
 msgid "Preview"
-msgstr ""
+msgstr "预览"
 
 #: src/gtk/aptitude.glade:369 src/gtk/aptitude.glade:2628 src/gtk/gui.cc:1028
 #: src/qt/tabs_manager.cc:263 src/ui.cc:2783
 msgid "Resolver"
-msgstr ""
+msgstr "解决手段"
 
 #: src/gtk/aptitude.glade:380 src/gtk/aptitude.glade:2639
 msgid "Install/Remove"
-msgstr ""
+msgstr "安装/删除"
 
 #: src/gtk/aptitude.glade:583
 msgid "Edit Columns..."
-msgstr ""
+msgstr "编辑列..."
 
 #: src/gtk/aptitude.glade:597
 msgid "Dummy label (will be replaced at runtime)."
-msgstr ""
+msgstr "不工作的标签（会在运行时代替）。"
 
 #: src/gtk/aptitude.glade:625
 msgid "Make this the default for new package lists."
-msgstr ""
+msgstr "把这个新安装包列表变成默认"
 
 #: src/gtk/aptitude.glade:640
 msgid "Apply these settings to all active package lists."
-msgstr ""
+msgstr "使用过滤器过滤软件包列表"
 
 #: src/gtk/aptitude.glade:714 src/gtk/aptitude.glade:1448
 #: src/gtk/aptitude.glade:1780 src/gtk/aptitude.glade:1919
 msgid "Search:"
-msgstr ""
+msgstr "搜索："
 
 #: src/gtk/aptitude.glade:745
 msgid "Incremental"
