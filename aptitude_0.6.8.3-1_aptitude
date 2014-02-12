@@ -3403,70 +3403,70 @@ msgstr "搜索："
 
 #: src/gtk/aptitude.glade:745
 msgid "Incremental"
-msgstr ""
+msgstr "增量"
 
 #: src/gtk/aptitude.glade:765 src/gtk/aptitude.glade:1487
 #: src/gtk/aptitude.glade:1819 src/gtk/aptitude.glade:1958
 msgid "Errors"
-msgstr ""
+msgstr "错误"
 
 #: src/gtk/aptitude.glade:782 src/gtk/aptitude.glade:1836
 #: src/gtk/aptitude.glade:1975
 msgid "Show "
-msgstr ""
+msgstr "显示"
 
 #: src/gtk/aptitude.glade:892
 msgid "<span size=\"xx-large\">Versions:</span>"
-msgstr ""
+msgstr "<span size=\"xx-large\">版本：</span>"
 
 #: src/gtk/aptitude.glade:953
 msgid "Dependencies"
-msgstr ""
+msgstr "依赖关系"
 
 #: src/gtk/aptitude.glade:983
 msgid "Changelog"
-msgstr ""
+msgstr "变更日志"
 
 #: src/gtk/aptitude.glade:1011
 msgid "Files"
-msgstr ""
+msgstr "文件"
 
 #: src/gtk/aptitude.glade:1022
 msgid "popcon"
-msgstr ""
+msgstr "安装量统计"
 
 #: src/gtk/aptitude.glade:1031
 msgid "Popcon"
-msgstr ""
+msgstr "安装量统计"
 
 #: src/gtk/aptitude.glade:1042
 msgid "tags"
-msgstr ""
+msgstr "标签"
 
 #: src/gtk/aptitude.glade:1076
 msgid "Screenshot"
-msgstr ""
+msgstr "截图"
 
 #: src/gtk/aptitude.glade:1128
 msgid "Fixing upgrade manually:"
-msgstr ""
+msgstr "手动修复升级："
 
 #: src/gtk/aptitude.glade:1138 src/gtk/dashboardtab.cc:526
 msgid "Calculating upgrade..."
-msgstr ""
+msgstr "正在计算升级..."
 
 #: src/gtk/aptitude.glade:1186
 msgid "<b>Solutions</b>"
-msgstr ""
+msgstr "<b>解决方案</b>"
 
 #: src/gtk/aptitude.glade:1204 src/gtk/download.cc:261
 #: src/gtk/entityview.cc:551
 msgid "Status"
-msgstr ""
+msgstr "状态"
 
 #: src/gtk/aptitude.glade:1238
 msgid "Group by action type"
-msgstr ""
+msgstr "按操作类型分组"
 
 #: src/gtk/aptitude.glade:1242
 msgid ""
@@ -3476,20 +3476,23 @@ msgid ""
 "\n"
 "This is the default view mode."
 msgstr ""
+"排列本解决方法的动作让同组放在一起（比如所有的动作来删除安装包）。\n"
+"这是默认显示设置。"
 
 #: src/gtk/aptitude.glade:1256
 msgid "Group by dependency"
-msgstr ""
+msgstr "按操作类型分组"
 
 #: src/gtk/aptitude.glade:1260
 msgid ""
 "Show the order in which the actions in the current solution were performed "
 "and the dependency that triggered each action."
 msgstr ""
+"显示本解决方案的顺序和启动了每一个动作的依赖关系。"
 
 #: src/gtk/aptitude.glade:1277
 msgid "<b>View Mode</b>"
-msgstr ""
+msgstr "<b>视图模式</b>"
 
 #: src/gtk/aptitude.glade:1319
 msgid "Rejected"
