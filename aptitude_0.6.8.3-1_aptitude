@@ -3703,7 +3703,8 @@ msgid_plural ""
 "Press \"%s\" to install <span size='large'>%d</span> upgrades out of <span "
 "size='large'>%d</span>."
 msgstr[0] ""
-msgstr[1] ""
+"按“%s”来安装 <span size='large'>%d</span> 个升级，总共 <span size='large'>"
+"%d</span>。"
 
 #: src/gtk/dashboardtab.cc:652
 #, c-format
@@ -3713,20 +3714,19 @@ msgid ""
 msgid_plural ""
 "Press \"%s\" to manually attempt to install the remaining <span size='large'>"
 "%d</span> upgrades."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "按“%s”来尝试手动安装剩余的 <span size='large'>%d</span> 个升级。"
 
 #: src/gtk/dashboardtab.cc:677
 #, c-format
 msgid ""
 "Unable to calculate an upgrade.  Press \"%s\" to manually search for a "
 "solution."
-msgstr ""
+msgstr "无法计算升级。按“%s”来手动搜索解决方案。"
 
 #: src/gtk/dashboardtab.cc:694
 #, c-format
 msgid "Internal error encountered while calculating an upgrade: %s"
-msgstr ""
+msgstr "计算升级时发生内部错误：%s"
 
 #: src/gtk/dependency_chains_tab.cc:78
 msgid "Find dependency chains: start"
