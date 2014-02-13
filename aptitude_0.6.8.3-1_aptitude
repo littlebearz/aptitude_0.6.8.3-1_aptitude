@@ -3512,43 +3512,43 @@ msgstr "<b>选中操作的状态</b>"
 
 #: src/gtk/aptitude.glade:1391
 msgid "Find a new solution"
-msgstr ""
+msgstr "检查新解决方案"
 
 #: src/gtk/aptitude.glade:1395
 msgid "Calculate the next solution that has not yet been generated."
-msgstr ""
+msgstr "计算下一个尚未产生的解决方案。"
 
 #: src/gtk/aptitude.glade:1410
 msgid ""
 "Perform the actions in the currently selected solution and close this tab."
-msgstr ""
+msgstr "确认当前选择的解决方案中包含的动作。"
 
 #: src/gtk/aptitude.glade:1567
 msgid "Upgrade Summary"
-msgstr ""
+msgstr "升级总结"
 
 #: src/gtk/aptitude.glade:1596
 msgid "Selected Package"
-msgstr ""
+msgstr "已选中软件包"
 
 #: src/gtk/aptitude.glade:1631
 msgid ""
 "Label explaining the upgrade.  This text will not appear in the program at "
 "runtime."
-msgstr ""
+msgstr "解释升级的标签。 这些文本不会在运行时显示。"
 
 #: src/gtk/aptitude.glade:1643
 msgid "Fix Manually"
-msgstr ""
+msgstr "手动修复"
 
 #: src/gtk/aptitude.glade:1656 src/gtk/areas.cc:72 src/gtk/gui.cc:93
 #: src/gtk/gui.cc:1408
 msgid "Upgrade"
-msgstr ""
+msgstr "升级"
 
 #: src/gtk/aptitude.glade:1687
 msgid "<b>Available Upgrades:</b>"
-msgstr ""
+msgstr "<b>可用更新：</b>"
 
 #: src/gtk/aptitude.glade:1884
 msgid "<b>Start at these packages:</b>"
