@@ -3835,98 +3835,98 @@ msgstr "内部错误：临时套接字名“%s”过长！"
 #: src/gtk/dpkg_terminal.cc:429
 #, c-format
 msgid "%s: Unable to accept a connection: %s"
-msgstr ""
+msgstr "%s：无法接受连接：%s"
 
 #: src/gtk/dpkg_terminal.cc:532
 #, c-format
 msgid "[%s] dpkg process starting...\n"
-msgstr ""
+msgstr "[%s] dpkg 操作正在启动...\n"
 
 #: src/gtk/dpkg_terminal.cc:565
 #, c-format
 msgid "[%s] dpkg process complete.\n"
-msgstr ""
+msgstr "[%s] dpkg 操作完成。\n"
 
 #: src/gtk/dpkg_terminal.cc:568
 #, c-format
 msgid "[%s] dpkg process failed.\n"
-msgstr ""
+msgstr "[%s] dpkg 操作失败。\n"
 
 #: src/gtk/dpkg_terminal.cc:571
 #, c-format
 msgid "[%s] dpkg process complete; there are more packages left to process.\n"
-msgstr ""
+msgstr "[%s] dpkg 操作完成；没有剩余的要处理的包。\n"
 
 #: src/gtk/entitysummary.cc:115
 #, c-format
 msgid "Upgrade to %s version %s"
-msgstr ""
+msgstr "更新到 %s (版本：%s)"
 
 #: src/gtk/entitysummary.cc:123
 #, c-format
 msgid "Install %s version %s"
-msgstr ""
+msgstr "安装 %s (版本：%s)"
 
 #: src/gtk/entitysummary.cc:131
 #, c-format
 msgid "Downgrade to %s version %s"
-msgstr ""
+msgstr "将 %s 降级到版本 %s"
 
 #: src/gtk/entitysummary.cc:142
 #, c-format
 msgid "Don't hold %s at its current version."
-msgstr ""
+msgstr "不要将 %s 保持在当前版本。"
 
 #: src/gtk/entitysummary.cc:145 src/gtk/entitysummary.cc:165
 #: src/gtk/entitysummary.cc:168
 #, c-format
 msgid "Cancel any actions on %s."
-msgstr ""
+msgstr "取消 %s 上的所有操作。"
 
 #: src/gtk/entitysummary.cc:150
 #, c-format
 msgid "Cancel the purge of %s."
-msgstr ""
+msgstr "取消清除 %s。"
 
 #: src/gtk/entitysummary.cc:152
 #, c-format
 msgid "Cancel the removal of %s."
-msgstr ""
+msgstr "取消删除 %s。"
 
 #: src/gtk/entitysummary.cc:157
 #, c-format
 msgid "Cancel the upgrade of %s."
-msgstr ""
+msgstr "取消升级 %s。"
 
 #: src/gtk/entitysummary.cc:159
 #, c-format
 msgid "Cancel the installation of %s."
-msgstr ""
+msgstr "取消安装 %s。"
 
 #: src/gtk/entitysummary.cc:161
 #, c-format
 msgid "Cancel the downgrade of %s."
-msgstr ""
+msgstr "取消降级 %s。"
 
 #: src/gtk/entitysummary.cc:163
 #, c-format
 msgid "Cancel the reinstallation of %s."
-msgstr ""
+msgstr "取消重新安装 %s。"
 
 #: src/gtk/entitysummary.cc:206
 #, c-format
 msgid "Remove %s"
-msgstr ""
+msgstr "移除 %s"
 
 #: src/gtk/entitysummary.cc:210
 #, c-format
 msgid "Purge %s"
-msgstr ""
+msgstr "清除 %s"
 
 #: src/gtk/entitysummary.cc:218
 #, c-format
 msgid "Hold %s at its current version."
-msgstr ""
+msgstr "保持 %s 于当前版本。"
 
 #: src/gtk/entitysummary.cc:223
 #, c-format
