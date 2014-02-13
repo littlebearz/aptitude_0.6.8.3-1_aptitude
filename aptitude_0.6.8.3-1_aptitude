@@ -3573,82 +3573,84 @@ msgstr ""
 
 #: src/gtk/aptitude.glade:2133
 msgid "View the differences\t"
-msgstr ""
+msgstr "查看不同\t"
 
 #: src/gtk/aptitude.glade:2159
 msgid ""
 "Do you want to apply these changes?\n"
 "You can also modify the files by hand, then click \"No\"."
 msgstr ""
+"想要应用这些更改吗？\n"
+"您也可以手动修改这些文件，然后点击“不”。"
 
 #: src/gtk/areas.cc:73
 msgid "Keep your computer up-to-date."
-msgstr ""
+msgstr "保持您的电脑更新。"
 
 #: src/gtk/areas.cc:75
 msgid "Browse"
-msgstr ""
+msgstr "浏览"
 
 #: src/gtk/areas.cc:76
 msgid "Explore the available packages."
-msgstr ""
+msgstr "浏览可用的软件包。"
 
 #: src/gtk/areas.cc:78
 msgid "Find"
-msgstr ""
+msgstr "查找"
 
 #: src/gtk/areas.cc:79
 msgid "Search for packages."
-msgstr ""
+msgstr "搜索软件包："
 
 #: src/gtk/areas.cc:81
 msgid "Go"
-msgstr ""
+msgstr "前进"
 
 #: src/gtk/areas.cc:82
 msgid "Finalize and apply your changes to the system."
-msgstr ""
+msgstr "结束并将更改提交到系统。"
 
 #: src/gtk/areas.cc:84 src/ui.cc:713 src/ui.cc:715
 msgid "Preferences"
-msgstr ""
+msgstr "首选项"
 
 #: src/gtk/areas.cc:85
 msgid "Configure aptitude."
-msgstr ""
+msgstr "配置 Aptitude。"
 
 #: src/gtk/changelog.cc:284
 msgid "The changelog is empty."
-msgstr ""
+msgstr "变更日志为空。"
 
 #: src/gtk/changelog.cc:286
 msgid ""
 "No new changelog entries; it looks like you installed a locally compiled "
 "version of this package."
-msgstr ""
+msgstr "没有新变更日志条目，您好像安装了本包的本地编译版本。"
 
 #: src/gtk/changelog.cc:288
 msgid ""
 "No new changelog entries; this is likely due to a binary-only upload of this "
 "package."
-msgstr ""
+msgstr "没有新变更日志项目。这很可能是因为本包的只二进制上传。"
 
 #: src/gtk/changelog.cc:390
 #, c-format
 msgid "Failed to download the changelog: %s"
-msgstr ""
+msgstr "下载变更日志失败：%s"
 
 #: src/gtk/changelog.cc:554 src/gtk/changelog.cc:692
 #, c-format
 msgid "Parsing the changelog of %s version %s..."
-msgstr ""
+msgstr "正在解析 %s 的变更日志，版本 %s..."
 
 #: src/gtk/changelog.cc:659
 #, c-format
 msgid ""
 "You can only view changelogs of official Debian packages; the origin of %s "
 "is unknown."
-msgstr ""
+msgstr "您只能查看官方 Debian 软件包的变更日志。%s 的来源未知。"
 
 #: src/gtk/changelog.cc:663
 #, c-format
