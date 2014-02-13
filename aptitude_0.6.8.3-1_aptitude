@@ -3552,15 +3552,15 @@ msgstr "<b>可用更新：</b>"
 
 #: src/gtk/aptitude.glade:1884
 msgid "<b>Start at these packages:</b>"
-msgstr ""
+msgstr "<b>从这些包开始:</b>"
 
 #: src/gtk/aptitude.glade:2023
 msgid "<b>End at these packages:</b>"
-msgstr ""
+msgid "<b>在这些包结束:</b>"
 
 #: src/gtk/aptitude.glade:2091
 msgid "A terminal running dpkg will appear here."
-msgstr ""
+msgstr "此处将显示一个运行着 dpkg 的终端。"
 
 #: src/gtk/aptitude.glade:2104
 msgid ""
@@ -3568,6 +3568,8 @@ msgid ""
 "compared.\n"
 "This text should not appear in the program."
 msgstr ""
+"用来描述两个配置文件比较的占位符标签。\n"
+"此文本不应该出现在程序中。"
 
 #: src/gtk/aptitude.glade:2133
 msgid "View the differences\t"
