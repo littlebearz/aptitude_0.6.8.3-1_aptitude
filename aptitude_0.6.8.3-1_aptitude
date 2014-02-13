@@ -4059,40 +4059,40 @@ msgstr "删除"
 
 #: src/gtk/gui.cc:96
 msgid "Remove and purge configuration/data"
-msgstr ""
+msgstr "移除软件包并清除配置和数据"
 
 #: src/gtk/gui.cc:97
 msgid "Hold (don't upgrade)"
-msgstr ""
+msgstr "保持(不要升级)"
 
 #: src/gtk/gui.cc:99
 msgid "Unsatisfied dependencies"
-msgstr ""
+msgstr "为满足的依赖关系"
 
 #: src/gtk/gui.cc:269
 msgid "Checking for updates"
-msgstr ""
+msgstr "检查更新"
 
 #: src/gtk/gui.cc:287
 msgid "Insufficient privileges."
-msgstr ""
+msgstr "权限不足。"
 
 #: src/gtk/gui.cc:290
 msgid "You must be root to update the package lists."
-msgstr ""
+msgstr "要更新包列表，您必须是 root 用户。"
 
 #: src/gtk/gui.cc:298 src/gtk/gui.cc:946
 msgid "Download already running."
-msgstr ""
+msgstr "下载已经在运行。"
 
 #: src/gtk/gui.cc:300 src/gtk/gui.cc:948 src/ui.cc:1526 src/ui.cc:1765
 msgid "A package-list update or install run is already taking place."
-msgstr ""
+msgstr "已经开始了一个软件包列表更新或者安装的动作。"
 
 #: src/gtk/gui.cc:359
 #, c-format
 msgid "Update %s?"
-msgstr ""
+msgstr "更新 %s？"
 
 #: src/gtk/gui.cc:385
 #, c-format
@@ -4100,6 +4100,8 @@ msgid ""
 "Replace configuration file\n"
 "'%s'?"
 msgstr ""
+"替换配置文件\n"
+"“%s”？"
 
 #: src/gtk/gui.cc:389
 #, c-format
@@ -4109,6 +4111,8 @@ msgid ""
 "version, choose 'No'. Do you want to replace the current file and install "
 "the new package maintainers version? "
 msgstr ""
+"配置文件 %s 已经被修改(手动或被脚本)。本软件包带了一个新版本。如果希望保持当"
+"前版本，选择“不”。希望替换掉当前配置文件并安装包维护者提供的新版本吗？"
 
 #: src/gtk/gui.cc:417
 #, c-format
