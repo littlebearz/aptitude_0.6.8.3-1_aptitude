@@ -3931,131 +3931,131 @@ msgstr "保持 %s 于当前版本。"
 #: src/gtk/entitysummary.cc:223
 #, c-format
 msgid "Mark %s as automatically installed."
-msgstr ""
+msgstr "将 %s 标记为自动安装"
 
 #: src/gtk/entitysummary.cc:228
 #, c-format
 msgid "Mark %s as manually installed."
-msgstr ""
+msgstr "标记软件包“%s”为手动安装的。"
 
 #: src/gtk/entitysummary.cc:279
 #, c-format
 msgid "%s is a virtual package provided by:\n"
-msgstr ""
+msgstr "“%s”是一个虚拟软件包，提供者：\n"
 
 #: src/gtk/entitysummary.cc:343 src/gtk/previewtab.cc:215
 msgid "(more info...)"
-msgstr ""
+msgstr "(更多信息...)"
 
 #: src/gtk/entitysummary.cc:375
 msgid "Source: "
-msgstr ""
+msgstr "源码："
 
 #: src/gtk/entityview.cc:381 src/gtk/entityview.cc:575
 #: src/qt/widgets/packages_tab.cc:105
 msgid "Name"
-msgstr ""
+msgstr "名称："
 
 #: src/gtk/entityview.cc:385
 msgid "Visible?"
-msgstr ""
+msgstr "可见？"
 
 #: src/gtk/entityview.cc:411
 #, c-format
 msgid "Columns of \"%s\":"
-msgstr ""
+msgstr "“%s”列："
 
 #: src/gtk/entityview.cc:412
 #, c-format
 msgid "Editing the columns of \"%s\""
-msgstr ""
+msgstr "“%s”列"
 
 #: src/gtk/entityview.cc:552
 msgid "Icons showing the current and future status of this package."
-msgstr ""
+msgstr "显示本包当前和未来状态的图标。"
 
 #: src/gtk/entityview.cc:564 src/pkg_columnizer.cc:103
 msgid "Auto"
-msgstr ""
+msgstr "自动"
 
 #: src/gtk/entityview.cc:570
 msgid "Whether the package is automatically installed."
-msgstr ""
+msgstr "此包是否自动安装。"
 
 #: src/gtk/entityview.cc:576
 msgid "The name and description of the package."
-msgstr ""
+msgstr "包名和描述。"
 
 #: src/gtk/entityview.cc:591 src/qt/widgets/packages_tab.cc:105
 msgid "Version"
-msgstr ""
+msgstr "版本号"
 
 #: src/gtk/entityview.cc:592
 msgid "The version number of the package."
-msgstr ""
+msgstr "软件包的版本号。"
 
 #: src/gtk/entityview.cc:607
 msgid "The package archives that contain this version."
-msgstr ""
+msgstr "安装包里的存档含本版本"
 
 #: src/gtk/filesview.cc:295
 #, c-format
 msgid ""
 "This file list pertains to the currently installed version \"%s\", not the "
 "selected version \"%s\"."
-msgstr ""
+msgstr "本文件列涉及到现在安装的版本\"%s\", 不是选中的版本\"%s\"."
 
 #: src/gtk/filesview.cc:309
 msgid "Files list is only available for installed packages."
-msgstr ""
+msgstr "文件列表只对已安装软件包可用。"
 
 #: src/gtk/gui.cc:80
 msgid "Not installed"
-msgstr ""
+msgstr "未安装的"
 
 #: src/gtk/gui.cc:81
 msgid "Virtual"
-msgstr ""
+msgstr "虚拟"
 
 #: src/gtk/gui.cc:82
 msgid "Unpacked"
-msgstr ""
+msgstr "未解包的"
 
 #: src/gtk/gui.cc:83
 msgid "Half-configured"
-msgstr ""
+msgstr "配置了一半"
 
 #: src/gtk/gui.cc:84
 msgid "Half-installed"
-msgstr ""
+msgstr "安装了一半""
 
 #: src/gtk/gui.cc:85
 msgid "Configuration files and data remain"
-msgstr ""
+msgstr "存留配置文件和数据"
 
 #: src/gtk/gui.cc:86
 msgid "Triggers awaited"
-msgstr ""
+msgstr "等待触发"
 
 #: src/gtk/gui.cc:87
 msgid "Triggers pending"
-msgstr ""
+msgstr "即将触发"
 
 #: src/gtk/gui.cc:88
 msgid "Installed"
-msgstr ""
+msgstr "已安装"
 
 #: src/gtk/gui.cc:92
 msgid "Reinstall"
-msgstr ""
+msgstr "重新安装"
 
 #: src/gtk/gui.cc:94 src/gtk/gui.cc:1414
 msgid "Downgrade"
-msgstr ""
+msgstr "降级"
 
 #: src/gtk/gui.cc:95 src/gtk/gui.cc:1424
 msgid "Remove"
-msgstr ""
+msgstr "删除"
 
 #: src/gtk/gui.cc:96
 msgid "Remove and purge configuration/data"
