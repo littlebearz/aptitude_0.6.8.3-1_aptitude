@@ -3656,44 +3656,43 @@ msgstr "您只能查看官方 Debian 软件包的变更日志。%s 的来源未�
 #, c-format
 msgid ""
 "You can only view changelogs of official Debian packages; %s is from %s."
-msgstr ""
+msgstr "您只能查看官方 Debian 软件包的变更日志，可是 %s 来自于 %s。"
 
 #: src/gtk/changelog.cc:739
 #, c-format
 msgid "Downloading the changelog of %s version %s..."
-msgstr ""
+msgstr "正在下载 %s (版本：%s) 的变更日志"
 
 #: src/gtk/changelog.cc:931
 #, c-format
 msgid "Preparing to download the changelog of %s version %s."
-msgstr ""
+msgstr "正在准备下载 %s (版本：%s) 的变更日志"
 
 #: src/gtk/dashboardtab.cc:215
 msgid "Resolve Upgrade Manually"
-msgstr ""
+msgstr "手动解决升级。"
 
 #: src/gtk/dashboardtab.cc:298
 msgid "Preparing to download changelogs"
-msgstr ""
+msgstr "正在准备下载变更日志"
 
 #: src/gtk/dashboardtab.cc:383
 msgid "Available upgrades:"
-msgstr ""
+msgstr "可用升级："
 
 #: src/gtk/dashboardtab.cc:400
 #, c-format
 msgid "%d available upgrade:"
 msgid_plural "%d available upgrades:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d 个可用升级："
 
 #: src/gtk/dashboardtab.cc:619
 msgid "No upgrades are available."
-msgstr ""
+msgstr "无可用升级"
 
 #: src/gtk/dashboardtab.cc:631
 msgid "Unable to calculate an upgrade."
-msgstr ""
+msgstr "无法计算升级。"
 
 #: src/gtk/dashboardtab.cc:640
 #, c-format
