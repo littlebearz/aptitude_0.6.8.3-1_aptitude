@@ -3730,107 +3730,107 @@ msgstr "计算升级时发生内部错误：%s"
 
 #: src/gtk/dependency_chains_tab.cc:78
 msgid "Find dependency chains: start"
-msgstr ""
+msgstr "查找依赖关系：开始"
 
 #: src/gtk/dependency_chains_tab.cc:82
 msgid "Find dependency chains: end"
-msgstr ""
+msgstr "查找依赖关系：结束"
 
 #: src/gtk/dependency_chains_tab.cc:86
 msgid "Find dependency chains: results"
-msgstr ""
+msgstr "查找依赖关系：结果"
 
 #: src/gtk/dependency_chains_tab.cc:226
 msgid "Select one or more starting packages and an ending package to search."
-msgstr ""
+msgstr "选择一个或者更多开始包和一个结束包来寻找"
 
 #: src/gtk/dependency_chains_tab.cc:282
 msgid "No dependency chain found."
-msgstr ""
+msgstr "没有发现依赖关系链。"
 
 #: src/gtk/download.cc:179
 msgid "Ignored"
-msgstr ""
+msgstr "已忽略"
 
 #: src/gtk/download.cc:185
 msgid "Failed"
-msgstr ""
+msgstr "已失败"
 
 #: src/gtk/download.cc:193
 msgid "Already downloaded"
-msgstr ""
+msgstr "已下载"
 
 #: src/gtk/download.cc:248 src/gtk/entityview.cc:397 src/pkg_columnizer.cc:94
 #: src/pkg_view.cc:675
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: src/gtk/download.cc:253
 msgid "Progress"
-msgstr ""
+msgstr "进度："
 
 #: src/gtk/download.cc:264
 msgid "Short Description"
-msgstr ""
+msgstr "短描述"
 
 #: src/gtk/download.cc:272
 msgid "URI"
-msgstr ""
+msgstr "URI"
 
 #: src/gtk/download.cc:319
 msgid "The download is still in progress.  Should it be canceled?"
-msgstr ""
+msgstr "仍然正在下载。  需要取消吗？"
 
 #: src/gtk/download.cc:395 src/gtk/gui.cc:832
 msgid "View Details"
-msgstr ""
+msgstr "查看详情"
 
 #: src/gtk/download.cc:439
 msgid "Change media"
-msgstr ""
+msgstr "更换媒体"
 
 #: src/gtk/download.cc:460
 #, c-format
 msgid "%s: %sB/s"
-msgstr ""
+msgstr "%s：%sB/s"
 
 #: src/gtk/download.cc:480
 #, c-format
 msgid "%s: %lu/%lu, %sB/s"
-msgstr ""
+msgstr "%s: %lu/%lu, %sB/s"
 
 #: src/gtk/download.cc:486
 #, c-format
 msgid "%s: %lu/%lu, stalled"
-msgstr ""
+msgstr "%s: %lu/%lu, 停滞了"
 
 #: src/gtk/download.cc:507
 #, c-format
 msgid "%s: %sB of %sB at %sB/s, %s remaining"
-msgstr ""
+msgstr "%s: %sB of %sB at %sB/s, %s 剩余"
 
 #: src/gtk/download.cc:514
 #, c-format
 msgid "%s: %sB of %sB, stalled"
-msgstr ""
+msgstr "%s: %sB of %sB, 停滞了"
 
 #: src/gtk/download.cc:541
 msgid "Completed"
-msgstr ""
+msgstr "已经完成"
 
 #: src/gtk/download.cc:543
 msgid "Completed with errors"
-msgstr ""
+msgstr "已经完成，但是有错误"
 
 #: src/gtk/dpkg_terminal.cc:352
 #, c-format
 msgid "%s: Unable to create a Unix-domain socket: %s"
-msgstr ""
+msgstr "%s：无法创建 Unix 域套接字：%s"
 
 #: src/gtk/dpkg_terminal.cc:388 src/gtk/dpkg_terminal.cc:466
 #, c-format
 msgid "Internal error: the temporary socket name \"%s\" is too long!"
-msgstr ""
+msgstr "内部错误：临时套接字名“%s”过长！"
 
 #: src/gtk/dpkg_terminal.cc:429
 #, c-format
