@@ -3496,19 +3496,19 @@ msgstr "<b>视图模式</b>"
 
 #: src/gtk/aptitude.glade:1319
 msgid "Rejected"
-msgstr ""
+msgstr "放弃"
 
 #: src/gtk/aptitude.glade:1334
 msgid "No preference"
-msgstr ""
+msgstr "无所谓"
 
 #: src/gtk/aptitude.glade:1350
 msgid "Accepted"
-msgstr ""
+msgstr "已接受"
 
 #: src/gtk/aptitude.glade:1370
 msgid "<b>Status of selected action</b>"
-msgstr ""
+msgstr "<b>选中操作的状态</b>"
 
 #: src/gtk/aptitude.glade:1391
 msgid "Find a new solution"
