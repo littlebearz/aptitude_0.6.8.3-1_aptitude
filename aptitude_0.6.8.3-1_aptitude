@@ -4117,67 +4117,66 @@ msgstr ""
 #: src/gtk/gui.cc:417
 #, c-format
 msgid "Comparing %s to %s..."
-msgstr ""
+msgstr "比较 %s 和 %s..."
 
 #: src/gtk/gui.cc:738
 msgid ""
 "Interrupting this process could leave your system in an inconsistent state.  "
 "Are you sure you want to stop applying your changes?"
-msgstr ""
+msgstr "打断此操作可能会使您的系统处于不稳定状态。  确定想要停止应用更改吗？"
 
 #: src/gtk/gui.cc:776
 msgid "Done applying changes!"
-msgstr ""
+msgstr "应该更改完成！"
 
 #: src/gtk/gui.cc:823
 msgid "Applying changes..."
-msgstr ""
+msgstr "正在应该更改..."
 
 #: src/gtk/gui.cc:875
 #, c-format
 msgid "%s: %s"
-msgstr ""
+msgstr "%s: %s"
 
 #: src/gtk/gui.cc:878
 #, c-format
 msgid "Error in package %s"
-msgstr ""
+msgstr "包 %s 中的错误"
 
 #: src/gtk/gui.cc:906
 #, c-format
 msgid "Asking whether to replace the configuration file %s"
-msgstr ""
+msgstr "询问是否替换配置文件 %s"
 
 #: src/gtk/gui.cc:962 src/ui.cc:1266
 msgid "Downloading packages"
-msgstr ""
+msgstr "正在下载软件包"
 
 #: src/gtk/gui.cc:1038
 msgid "Broken packages"
-msgstr ""
+msgstr "破损的软件包"
 
 #: src/gtk/gui.cc:1071
 msgid "Show broken packages"
-msgstr ""
+msgstr "显示破损的软件包"
 
 #: src/gtk/gui.cc:1075
 msgid "Resolve dependencies"
-msgstr ""
+msgstr "解决依赖关系"
 
 #: src/gtk/gui.cc:1103
 #, c-format
 msgid "%d package is broken"
 msgid_plural "%d packages are broken."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d 个软件包已经破损。"
 
 #: src/gtk/gui.cc:1147
 msgid "View changes"
-msgstr ""
+msgstr "查看更改"
 
 #: src/gtk/gui.cc:1151
 msgid "Apply changes"
-msgstr ""
+msgstr "应用更改"
 
 #. ForTranslators: any numbers in this
 #. string will be displayed in a larger
@@ -4186,8 +4185,7 @@ msgstr ""
 #, c-format
 msgid "%d package to install"
 msgid_plural "%d packages to install"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "要安装 %d 个软件包"
 
 #. ForTranslators: any numbers in this
 #. string will be displayed in a larger
@@ -4196,87 +4194,86 @@ msgstr[1] ""
 #, c-format
 msgid "%d package to remove"
 msgid_plural "%d packages to remove"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "要删除 %d 个软件包"
 
 #: src/gtk/gui.cc:1246
 #, c-format
 msgid "Download size: %sB."
-msgstr ""
+msgstr "下载文件大小：%sB"
 
 #: src/gtk/gui.cc:1289
 #, c-format
 msgid "Tags of %s:\n"
-msgstr ""
+msgstr "%s 的标签：\n"
 
 #: src/gtk/gui.cc:1345
 msgid "This feature is not implemented, yet."
-msgstr ""
+msgstr "此功能尚未实现。"
 
 #: src/gtk/gui.cc:1351
 msgid "Not implemented"
-msgstr ""
+msgstr "未实现"
 
 #: src/gtk/gui.cc:1403 src/gtk/gui.cc:1422
 msgid "Install/Upgrade"
-msgstr ""
+msgstr "安装/更新"
 
 #: src/gtk/gui.cc:1429
 msgid "Purge"
-msgstr ""
+msgstr "清除"
 
 #: src/gtk/gui.cc:1434
 msgid "Keep"
-msgstr ""
+msgstr "保留"
 
 #: src/gtk/gui.cc:1439
 msgid "Hold"
-msgstr ""
+msgstr "保持"
 
 #: src/gtk/gui.cc:1445
 msgid "Set as automatic"
-msgstr ""
+msgstr "设为已自动安装"
 
 #: src/gtk/gui.cc:1450
 msgid "Set as manual"
-msgstr ""
+msgstr "设为以手动安装"
 
 #: src/gtk/gui.cc:1455
 msgid "Toggle automatic status"
-msgstr ""
+msgstr "切换自动状态"
 
 #: src/gtk/gui.cc:1780 src/gtk/init.cc:144
 #, c-format
 msgid "Unable to load the user interface definition file %s/aptitude.glade."
-msgstr ""
+msgstr "无法加载用户界面定义文件 %s/aptitude.glade。"
 
 #: src/gtk/info.cc:161 src/gtk/pkgview.cc:169
 msgid "Current status"
-msgstr ""
+msgstr "当前状态"
 
 #: src/gtk/info.cc:163 src/gtk/pkgview.cc:171
 msgid "Selected status"
-msgstr ""
+msgstr "选中状态"
 
 #: src/gtk/info.cc:496
 msgid "Not available"
-msgstr ""
+msgstr "不可用"
 
 #: src/gtk/info.cc:545
 msgid "Package information: version list"
-msgstr ""
+msgstr "软件包信息：版本列表"
 
 #: src/gtk/info.cc:555
 msgid "Package information: dependency list"
-msgstr ""
+msgstr "软件包信息：依赖关系列表"
 
 #: src/gtk/info.cc:597
 msgid "Please wait; reloading cache..."
-msgstr ""
+msgstr "请稍后，正在重新加载缓存..."
 
 #: src/gtk/info.cc:779
 msgid "Info"
-msgstr ""
+msgstr "信息"
 
 #: src/gtk/packageinformation.cc:104 src/gtk/packageinformation.cc:106
 #: src/pkg_columnizer.cc:354 src/pkg_columnizer.cc:375
@@ -4285,57 +4282,57 @@ msgstr ""
 #: src/pkg_ver_item.cc:345 src/pkg_ver_item.cc:379 src/qt/package.cc:224
 #: src/qt/version.cc:114
 msgid "Unknown"
-msgstr ""
+msgstr "未知"
 
 #: src/gtk/packagestab.cc:203
 #, c-format
 msgid "No packages matched \"%s\"."
-msgstr ""
+msgstr "没有软件包匹配“%s”。"
 
 #: src/gtk/packagestab.cc:313
 msgid "Enter a search and click \"Find\" to display packages."
-msgstr ""
+msgstr "输入搜索条件并点击“查找”来显示软件包。"
 
 #: src/gtk/packagestab.cc:415
 msgid "Packages: "
-msgstr ""
+msgstr "软件包："
 
 #: src/gtk/pkgview.cc:224
 #, c-format
 msgid "%s was installed automatically."
-msgstr ""
+msgstr "%s 已经自动安装。"
 
 #: src/gtk/pkgview.cc:227
 #, c-format
 msgid "%s is being installed automatically."
-msgstr ""
+msgstr "%s 将被自动安装。"
 
 #: src/gtk/pkgview.cc:235
 #, c-format
 msgid "%s was installed manually."
-msgstr ""
+msgstr "%s 已手动安装。"
 
 #: src/gtk/pkgview.cc:238
 #, c-format
 msgid "%s is being installed manually."
-msgstr ""
+msgstr "%s 将被手动安装"
 
 #: src/gtk/pkgview.cc:401
 msgid "Cache reloading, please wait..."
-msgstr ""
+msgstr "正在重新加载缓存，请稍后..."
 
 #: src/gtk/pkgview.cc:607
 msgid "Searching..."
-msgstr ""
+msgstr "正在搜索中..."
 
 #: src/gtk/pkgview.cc:718
 msgid "Finalizing view"
-msgstr ""
+msgstr "编译视图中"
 
 #: src/gtk/pkgview.cc:718 src/pkg_tree.cc:204 src/pkg_tree.cc:215
 #: src/pkg_tree.cc:226 src/pkg_tree.cc:238
 msgid "Building view"
-msgstr ""
+msgstr "编译视图中"
 
 #: src/gtk/previewtab.cc:97 src/pkg_grouppolicy.cc:678
 msgid ""
@@ -4346,6 +4343,10 @@ msgid ""
 " The presence of this tree probably indicates that something is broken, "
 "either on your system or in the Debian archive."
 msgstr ""
+"依赖关系未被满足的软件包\n"
+" 这些软件包的依赖需求将会在安装完成之后破损。\n"
+" .\n"
+" 该树的存在表示您的系统上或者 Debian 归档中的某些东西被破坏。"
 
 #: src/gtk/previewtab.cc:98 src/pkg_grouppolicy.cc:679
 msgid ""
@@ -4354,6 +4355,9 @@ msgid ""
 "to fulfill dependencies, and the planned action will result in no installed "
 "package declaring an 'important' dependency on them.\n"
 msgstr ""
+"因不再使用而删除的软件包\n"
+" 这些软件包被删除，因为它们曾被自动安装以满足依赖关系，同时计划中的操作将导致"
+"没有任何软件包声明与它们有“重要”依赖关系。\n"
 
 #: src/gtk/previewtab.cc:99 src/pkg_grouppolicy.cc:680
 msgid ""
@@ -4361,6 +4365,8 @@ msgid ""
 " These packages could be upgraded, but they have been kept in their current "
 "state to avoid breaking dependencies."
 msgstr ""
+"被自动保持在当前状态的软件包\n"
+" 这些软件包可以被升级，但是它们被保持在其当前状态以避免破坏依赖关系。"
 
 #: src/gtk/previewtab.cc:100 src/pkg_grouppolicy.cc:681
 msgid ""
@@ -4368,6 +4374,8 @@ msgid ""
 " These packages are being installed because they are required by another "
 "package you have chosen for installation."
 msgstr ""
+"被自动安装以满足依赖关系的软件包\n"
+" 这些软件包被安装的原因是您选择安装的另一个软件包要求它们。"
 
 #: src/gtk/previewtab.cc:101 src/pkg_grouppolicy.cc:682
 msgid ""
@@ -4375,6 +4383,9 @@ msgid ""
 " These packages are being deleted because one or more of their dependencies "
 "is no longer available, or because another package conflicts with them."
 msgstr ""
+"由于未满足依赖关系而卸载的软件包\n"
+" 这些软件包被卸载，因为它们的一个或者多个依赖关系无法满足，或者另一个软件包和"
+"它们相冲突。"
 
 #: src/gtk/previewtab.cc:102 src/pkg_grouppolicy.cc:683
 msgid ""
@@ -4382,6 +4393,8 @@ msgid ""
 " An older version of these packages than is currently installed will be "
 "installed."
 msgstr ""
+"将被降级的软件包\n"
+" 这些软件包的一个比目前安装版本老的版本将被安装。"
 
 #: src/gtk/previewtab.cc:103 src/pkg_grouppolicy.cc:684
 msgid ""
@@ -4389,12 +4402,16 @@ msgid ""
 " These packages could be upgraded, but you have asked for them to be held at "
 "their current version."
 msgstr ""
+"被保持的软件包\n"
+" 这些软件包可以升级，但是您已经要求将它们保持在当前版本。"
 
 #: src/gtk/previewtab.cc:104 src/pkg_grouppolicy.cc:685
 msgid ""
 "Packages to be reinstalled\n"
 " These packages will be reinstalled."
 msgstr ""
+"重新安装的软件包\n"
+" 这些软件包将被重新安装。"
 
 #: src/gtk/previewtab.cc:105 src/pkg_grouppolicy.cc:686
 msgid ""
@@ -4402,18 +4419,24 @@ msgid ""
 " These packages have been manually selected for installation on your "
 "computer."
 msgstr ""
+"将要安装的软件包\n"
+" 这些软件包已经被手动选择安装在您的机器上。"
 
 #: src/gtk/previewtab.cc:106 src/pkg_grouppolicy.cc:687
 msgid ""
 "Packages to be removed\n"
 " These packages have been manually selected for removal."
 msgstr ""
+"将被卸载的软件包\n"
+" 这些软件包已经被手动选择卸载。"
 
 #: src/gtk/previewtab.cc:107 src/pkg_grouppolicy.cc:688
 msgid ""
 "Packages to be upgraded\n"
 " These packages will be upgraded to a newer version."
 msgstr ""
+"将要升级的软件包\n"
+" 这些软件包将被升级到一个新版本。"
 
 #: src/gtk/previewtab.cc:108 src/pkg_grouppolicy.cc:689
 msgid ""
@@ -4421,15 +4444,17 @@ msgid ""
 " These packages are not fully installed and configured; an attempt will be "
 "made to complete their installation."
 msgstr ""
+"被部分安装的软件包\n"
+" 这些软件包没有被完全安装并配置；会尝试完成它们的安装。"
 
 #: src/gtk/previewtab.cc:179
 msgid "Preview: "
-msgstr ""
+msgstr "预览："
 
 #: src/gtk/resolver.cc:68
 #, c-format
 msgid "Error in dependency resolver: %s"
-msgstr ""
+msgstr "依赖关系解决器出错：%s"
 
 #: src/gtk/resolver.cc:71
 #, c-format
@@ -4439,19 +4464,23 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"依赖关系解决器中发生致命错误。  您可以继续搜索，但是一些解决方案可能不能生"
+"成。\n"
+"\n"
+"%s"
 
 #: src/gtk/resolver.cc:212
 msgid "Virtual package"
-msgstr ""
+msgstr "虚拟软件包"
 
 #: src/gtk/resolver.cc:246 src/solution_fragment.cc:457
 msgid "Not Installed"
-msgstr ""
+msgstr "未安装的"
 
 #: src/gtk/resolver.cc:377
 #, c-format
 msgid "Removing %s is rejected."
-msgstr ""
+msgstr "删除 %s 被拒绝。"
 
 #: src/gtk/resolver.cc:382
 #, c-format
