@@ -4907,18 +4907,18 @@ msgstr "模式分组策略中不匹配的“(”"
 #: src/load_grouppolicy.cc:413
 #, c-format
 msgid "Bad section name '%s' (use 'none', 'topdir', 'subdir', or 'subdirs')"
-msgstr ""
+msgstr "坏的区段名称“%s”(使用“none”，“topdir”，“subdir”，或者“subdirs”)"
 
 #: src/load_grouppolicy.cc:423
 #, c-format
 msgid "Bad passthrough setting '%s' (use 'passthrough' or 'nopassthrough')"
-msgstr ""
+msgstr "坏的 passthrough 设置“%s”(使用“passthrough”或者“nopassthrough”)"
 
 #: src/load_grouppolicy.cc:428 src/load_grouppolicy.cc:544
 #: src/load_grouppolicy.cc:621
 #, c-format
 msgid "Too many arguments to '%s' grouping policy"
-msgstr ""
+msgstr "提供给按部分分组策略的参数太多了"
 
 #: src/load_grouppolicy.cc:441 src/load_grouppolicy.cc:521
 #: src/load_grouppolicy.cc:532 src/load_grouppolicy.cc:555
@@ -4926,7 +4926,7 @@ msgstr ""
 #: src/load_grouppolicy.cc:608 src/load_grouppolicy.cc:766
 #, c-format
 msgid "Grouping policy '%s' takes no arguments"
-msgstr ""
+msgstr "按状态分组策略不需要参数"
 
 #: src/load_grouppolicy.cc:460 src/load_grouppolicy.cc:636
 #, c-format
