@@ -4693,22 +4693,22 @@ msgstr "保持 %s 在版本 <big>%s</big> (%s)"
 #: src/gtk/resolver.cc:1547
 #, c-format
 msgid "Upgrade %s [<big>%s</big> (%s) -> <big>%s</big> (%s)]"
-msgstr ""
+msgstr "升级 %s [<big>%s</big> (%s) -> <big>%s</big> (%s)]"
 
 #: src/gtk/resolver.cc:1556
 #, c-format
 msgid "Downgrade %s [<big>%s</big> (%s) -> <big>%s</big> (%s)]"
-msgstr ""
+msgstr "降级 %s [<big>%s</big> (%s) -> <big>%s</big> (%s)]"
 
 #: src/gtk/resolver.cc:1615
 #, c-format
 msgid "<b>Remove</b> %s"
-msgstr ""
+msgstr "<b>移除</b> %s"
 
 #: src/gtk/resolver.cc:1615
 #, c-format
 msgid "<b>remove</b> %s"
-msgstr ""
+msgstr "<b>移除</b> %s"
 
 #: src/gtk/resolver.cc:1624
 #, c-format
@@ -4718,47 +4718,47 @@ msgstr ""
 #: src/gtk/resolver.cc:1624
 #, c-format
 msgid "<b>keep</b> %s at version %s"
-msgstr ""
+msgstr "<b>保存</b> %s 在版本 %s"
 
 #: src/gtk/resolver.cc:1632
 #, c-format
 msgid "<b>Cancel</b> the installation of %s"
-msgstr ""
+msgstr "<b>取消</b> 安装 %s"
 
 #: src/gtk/resolver.cc:1632
 #, c-format
 msgid "<b>cancel</b> the installation of %s"
-msgstr ""
+msgstr "<b>取消</b> 安装 %s"
 
 #: src/gtk/resolver.cc:1639
 #, c-format
 msgid "<b>Install</b> %s %s"
-msgstr ""
+msgstr "<b>安装</b> %s %s"
 
 #: src/gtk/resolver.cc:1639
 #, c-format
 msgid "<b>install</b> %s %s"
-msgstr ""
+msgstr "<b>安装</b> %s %s"
 
 #: src/gtk/resolver.cc:1648
 #, c-format
 msgid "<b>Downgrade</b> %s to version %s"
-msgstr ""
+msgstr "<b>降级</b> %s 到版本 %s"
 
 #: src/gtk/resolver.cc:1648
 #, c-format
 msgid "<b>downgrade</b> %s to version %s"
-msgstr ""
+msgstr "<b>降级</b> %s 到版本 %s"
 
 #: src/gtk/resolver.cc:1657
 #, c-format
 msgid "<b>Upgrade</b> %s to version %s"
-msgstr ""
+msgstr "<b>升级</b> %s 到版本 %s"
 
 #: src/gtk/resolver.cc:1657
 #, c-format
 msgid "<b>upgrade</b> %s to version %s"
-msgstr ""
+msgstr "<b>升级</b> %s 到版本 %s"
 
 #: src/gtk/resolver.cc:1670
 #, c-format
