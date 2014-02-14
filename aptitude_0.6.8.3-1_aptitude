@@ -5139,41 +5139,43 @@ msgid ""
 "  Actions (if none is specified, aptitude will enter interactive mode):\n"
 "\n"
 msgstr ""
+"  动作 (如果未指定，aptitude 将进入交互模式)：\n"
+"\n"
 
 #: src/main.cc:198
 #, c-format
 msgid " install      - Install/upgrade packages.\n"
-msgstr ""
+msgstr " install      - 安装/升级软件包。\n"
 
 #: src/main.cc:199
 #, c-format
 msgid " remove       - Remove packages.\n"
-msgstr ""
+msgstr " remove       - 卸载软件包。\n"
 
 #: src/main.cc:200
 #, c-format
 msgid " purge        - Remove packages and their configuration files.\n"
-msgstr ""
+msgstr " purge        - 卸载软件包并删除其配置文件。\n"
 
 #: src/main.cc:201
 #, c-format
 msgid " hold         - Place packages on hold.\n"
-msgstr ""
+msgstr " hold         - 将软件包置于保持状态。\n"
 
 #: src/main.cc:202
 #, c-format
 msgid " unhold       - Cancel a hold command for a package.\n"
-msgstr ""
+msgstr " unhold       - 取消对一个软件包的保持命令。\n"
 
 #: src/main.cc:203
 #, c-format
 msgid " markauto     - Mark packages as having been automatically installed.\n"
-msgstr ""
+msgstr " markauto     - 将软件包标记为自动安装。\n"
 
 #: src/main.cc:204
 #, c-format
 msgid " unmarkauto   - Mark packages as having been manually installed.\n"
-msgstr ""
+msgstr " unmarkauto   - 将软件包标记为手动安装。\n"
 
 #: src/main.cc:205
 #, c-format
