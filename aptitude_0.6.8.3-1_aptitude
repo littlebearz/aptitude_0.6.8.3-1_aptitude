@@ -4562,19 +4562,17 @@ msgstr "保留 %ls 未解决被拒绝。"
 #: src/gtk/resolver.cc:490
 #, c-format
 msgid "Leaving %ls unresolved is preferred over all un-accepted alternatives."
-msgstr ""
+msgstr "保留 %ls 于未解决相比所有未接受的可选项更受偏好。"
 
 #: src/gtk/resolver.cc:908
 msgid "How to treat the selected action"
 msgid_plural "How to treat the selected actions"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "如何对待选中的操作"
 
 #: src/gtk/resolver.cc:912
 msgid "Ignore solutions containing this action."
 msgid_plural "Ignore solutions containing these actions."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "忽略含有此操作的解决方案。"
 
 #: src/gtk/resolver.cc:916
 msgid ""
@@ -4583,67 +4581,65 @@ msgid ""
 msgid_plural ""
 "Allow solutions containing these actions, but do not prefer them to other "
 "solutions."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "允许解决方案包含此操作，但是并不比其它解决方案更偏好于它。"
 
 #: src/gtk/resolver.cc:920
 msgid ""
 "Always prefer this action over alternatives that have not been accepted."
 msgid_plural ""
 "Always prefer these actions over alternatives that have not been accepted."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "总是比其它没有接受的可选项更偏向这些动作。"
 
 #: src/gtk/resolver.cc:1240 src/solution_fragment.cc:131
 #, c-format
 msgid "%s depends upon %s"
-msgstr ""
+msgstr "%s 依赖于 %s"
 
 #: src/gtk/resolver.cc:1243 src/solution_fragment.cc:134
 #, c-format
 msgid "%s pre-depends upon %s"
-msgstr ""
+msgstr "%s 预依赖于 %s"
 
 #: src/gtk/resolver.cc:1246 src/solution_fragment.cc:137
 #, c-format
 msgid "%s suggests %s"
-msgstr ""
+msgstr "%s 建议 %s"
 
 #: src/gtk/resolver.cc:1249 src/solution_fragment.cc:140
 #: src/solution_item.cc:599
 #, c-format
 msgid "%s recommends %s"
-msgstr ""
+msgstr "%s 推荐 %s"
 
 #: src/gtk/resolver.cc:1252 src/solution_fragment.cc:143
 #, c-format
 msgid "%s conflicts with %s"
-msgstr ""
+msgstr "%s 对 %s 冲突"
 
 #: src/gtk/resolver.cc:1255 src/solution_fragment.cc:146
 #, c-format
 msgid "%s breaks %s"
-msgstr ""
+msgstr "%s 破坏 %s"
 
 #: src/gtk/resolver.cc:1258 src/solution_fragment.cc:149
 #, c-format
 msgid "%s replaces %s"
-msgstr ""
+msgstr "%s 替代 %s"
 
 #: src/gtk/resolver.cc:1261 src/solution_fragment.cc:152
 #, c-format
 msgid "%s obsoletes %s"
-msgstr ""
+msgstr "%s 过期 %s"
 
 #: src/gtk/resolver.cc:1264 src/solution_fragment.cc:155
 #, c-format
 msgid "%s enhances %s"
-msgstr ""
+msgstr "%s 加强 %s"
 
 #: src/gtk/resolver.cc:1376 src/gtk/resolver.cc:1841
 #: src/solution_screen.cc:272
 msgid "Remove the following packages:"
-msgstr ""
+msgstr "删除下列软件包："
 
 #: src/gtk/resolver.cc:1390 src/gtk/resolver.cc:1853
 #: src/solution_screen.cc:296
