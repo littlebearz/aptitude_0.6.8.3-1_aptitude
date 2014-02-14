@@ -4763,143 +4763,137 @@ msgstr "<b>升级</b> %s 到版本 %s"
 #: src/gtk/resolver.cc:1670
 #, c-format
 msgid "Leave %s unresolved"
-msgstr ""
+msgstr "保留 %s 于未解决状态"
 
 #: src/gtk/resolver.cc:1670
 #, c-format
 msgid "leave %s unresolved"
-msgstr ""
+msgstr "保留 %s 于未解决状态"
 
 #: src/gtk/resolver.cc:1738
 #, c-format
 msgid "%s install"
 msgid_plural "%s installs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "安装 %s 个包"
 
 #: src/gtk/resolver.cc:1743
 #, c-format
 msgid "%s remove"
 msgid_plural "%s removes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "删除 %s 个包"
 
 #: src/gtk/resolver.cc:1749
 #, c-format
 msgid "%s keep"
 msgid_plural "%s keeps"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "保持 %s 个包"
 
 #: src/gtk/resolver.cc:1755
 #, c-format
 msgid "%s upgrade"
 msgid_plural "%s upgrades"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "升级 %s 个包"
 
 #: src/gtk/resolver.cc:1761
 #, c-format
 msgid "%s downgrade"
 msgid_plural "%s downgrades"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "降级 %s 个包"
 
 #: src/gtk/resolver.cc:1767
 #, c-format
 msgid "%s unresolved recommendation"
 msgid_plural "%s unresolved recommendations"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s 未解决的推荐"
 
 #: src/gtk/resolver.cc:2059
 msgid "No solutions yet."
-msgstr ""
+msgstr "现在无解决方案。"
 
 #: src/gtk/resolver.cc:2066
 msgid "No dependency solution was found."
-msgstr ""
+msgstr "没有发现依赖的解决方案。"
 
 #: src/gtk/resolver.cc:2067
 msgid "No solutions."
-msgstr ""
+msgstr "无解"
 
 #: src/gtk/resolver.cc:2078
 msgid "To view a solution, select it from the list to the right."
-msgstr ""
+msgstr "来看解决方法， 从右面的列表里面选"
 
 #: src/gtk/resolver.cc:2079
 #, c-format
 msgid "%u solutions."
-msgstr ""
+msgstr "%u 个解决方案。"
 
 #: src/gtk/resolver.cc:2109
 #, c-format
 msgid "Solution %s of %s."
-msgstr ""
+msgstr "解决方案 %s，总共 %s 个。"
 
 #: src/gtk/tab.cc:68
 msgid "Download"
-msgstr ""
+msgstr "下载"
 
 #: src/load_config.cc:48
 #, c-format
 msgid "Unrecognized color name \"%s\""
-msgstr ""
+msgstr "无法识别的颜色名“%s”"
 
 #: src/load_config.cc:75
 #, c-format
 msgid "Unrecognized attribute name \"%s\""
-msgstr ""
+msgstr "无法识别的属性名“%s”"
 
 #: src/load_config.cc:113
 #, c-format
 msgid "Invalid entry in style definition group: \"%s\""
-msgstr ""
+msgstr "样式定义组中有无效条目：“%s”"
 
 #: src/load_config.cc:115
 #, c-format
 msgid "Invalid tagless entry in style definition group: \"%s\""
-msgstr ""
+msgstr "样式定义组中有无效的无标签条目：“%s”"
 
 #: src/load_config.cc:127
 msgid "The default color may only be used as a background."
-msgstr ""
+msgstr "默认的颜色可以只被用做背景。"
 
 #: src/load_config.cc:144
 #, c-format
 msgid "Unknown style attribute %s"
-msgstr ""
+msgstr "未知的样式属性 %s"
 
 #: src/load_config.cc:167 src/load_config.cc:169
 #, c-format
 msgid "Invalid entry in keybinding group: \"%s\""
-msgstr ""
+msgstr "快捷键绑定中的无效条目：“%s”"
 
 #: src/load_config.cc:184
 #, c-format
 msgid "Ignoring invalid keybinding \"%s\" -> \"%s\""
-msgstr ""
+msgstr "忽略无效快捷键绑定“%s”->“%s”"
 
 #: src/load_grouppolicy.cc:289
 #, c-format
 msgid "Expected policy identifier, got '%c'"
-msgstr ""
+msgstr "需要策略标识符，却得到“%c”"
 
 #: src/load_grouppolicy.cc:305
 #, c-format
 msgid "Expected ',', '%c', or '('; got '%c'"
-msgstr ""
+msgstr "需要“,”、“%c”或“(”，却得到“%c”"
 
 #: src/load_grouppolicy.cc:309
 #, c-format
 msgid "Expected ',' or '(', got '%c'"
-msgstr ""
+msgstr "需要“,”或“(”，却得到“%c”"
 
 #: src/load_grouppolicy.cc:317
 #, c-format
 msgid "Unknown grouping policy \"%s\""
-msgstr ""
+msgstr "未知的分组策略“%s”"
 
 #: src/load_grouppolicy.cc:324
 #, c-format
