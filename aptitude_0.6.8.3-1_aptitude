@@ -4644,51 +4644,51 @@ msgstr "删除下列软件包："
 #: src/gtk/resolver.cc:1390 src/gtk/resolver.cc:1853
 #: src/solution_screen.cc:296
 msgid "Install the following packages:"
-msgstr ""
+msgstr "安装下列软件包："
 
 #: src/gtk/resolver.cc:1403 src/gtk/resolver.cc:1865
 msgid "Keep the following packages:"
-msgstr ""
+msgstr "保存下列软件包："
 
 #: src/gtk/resolver.cc:1416 src/gtk/resolver.cc:1877
 #: src/solution_screen.cc:308
 msgid "Upgrade the following packages:"
-msgstr ""
+msgstr "升级下列软件包："
 
 #: src/gtk/resolver.cc:1429 src/gtk/resolver.cc:1890
 #: src/solution_screen.cc:320
 msgid "Downgrade the following packages:"
-msgstr ""
+msgstr "降级下列软件包："
 
 #: src/gtk/resolver.cc:1442 src/gtk/resolver.cc:1903
 #: src/solution_fragment.cc:513
 msgid "Leave the following dependencies unresolved:"
-msgstr ""
+msgstr "保留下列未解决的依赖关系："
 
 #: src/gtk/resolver.cc:1519
 #, c-format
 msgid "Remove %s [<big>%s</big> (%s)]"
-msgstr ""
+msgstr "删除 %s [<big>%s</big> (%s)]"
 
 #: src/gtk/resolver.cc:1526
 #, c-format
 msgid "Install %s [<big>%s</big> (%s)]"
-msgstr ""
+msgstr "安装 %s [<big>%s</big> (%s)]"
 
 #: src/gtk/resolver.cc:1534
 #, c-format
 msgid "Cancel the installation of %s"
-msgstr ""
+msgstr "取消 %s 的安装"
 
 #: src/gtk/resolver.cc:1537
 #, c-format
 msgid "Cancel the removal of %s"
-msgstr ""
+msgstr "取消删除 %s"
 
 #: src/gtk/resolver.cc:1540
 #, c-format
 msgid "Keep %s at version <big>%s</big> (%s)"
-msgstr ""
+msgstr "保持 %s 在版本 <big>%s</big> (%s)"
 
 #: src/gtk/resolver.cc:1547
 #, c-format
