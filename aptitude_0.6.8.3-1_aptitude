@@ -4485,79 +4485,79 @@ msgstr "删除 %s 被拒绝。"
 #: src/gtk/resolver.cc:382
 #, c-format
 msgid "Canceling the installation of %s is rejected."
-msgstr ""
+msgstr "取消 %s 的安装被拒绝。"
 
 #: src/gtk/resolver.cc:391
 #, c-format
 msgid "Canceling the removal of %s is rejected."
-msgstr ""
+msgstr "取消 %s 的移除被拒绝。"
 
 #: src/gtk/resolver.cc:394
 #, c-format
 msgid "Keeping %s at version %s is rejected."
-msgstr ""
+msgstr "保持 %s 在版本 %s 被拒绝。"
 
 #: src/gtk/resolver.cc:401
 #, c-format
 msgid "Installing %s version %s is rejected."
-msgstr ""
+msgstr "安装 %s 的 %s 版本被拒绝。"
 
 #: src/gtk/resolver.cc:407
 #, c-format
 msgid "Downgrading %s to version %s is rejected."
-msgstr ""
+msgstr "将 %s 降级到版本 %s 被拒绝。"
 
 #: src/gtk/resolver.cc:413
 #, c-format
 msgid "Upgrading %s to version %s is rejected."
-msgstr ""
+msgstr "升级 %s 到版本 %s 被拒绝。"
 
 #: src/gtk/resolver.cc:430
 #, c-format
 msgid "Removing %s is preferred over all un-accepted alternatives."
-msgstr ""
+msgstr "移除 %s 相比所有未接受的可选项更受偏好。"
 
 #: src/gtk/resolver.cc:435
 #, c-format
 msgid ""
 "Canceling the installation of %s is preferred over all un-accepted "
 "alternatives."
-msgstr ""
+msgstr "取消安装 %s 相比所有未接受的可选项更受偏好。"
 
 #: src/gtk/resolver.cc:444
 #, c-format
 msgid ""
 "Canceling the removal of %s is preferred over all un-accepted alternatives."
-msgstr ""
+msgstr "取消移除 %s 相比所有未接受的可选项更受偏好。"
 
 #: src/gtk/resolver.cc:447
 #, c-format
 msgid ""
 "Keeping %s at version %s is preferred over all un-accepted alternatives."
-msgstr ""
+msgstr "保持 %s 于版本 %s 相比所有未接受的可选项更受偏好。"
 
 #: src/gtk/resolver.cc:454
 #, c-format
 msgid ""
 "Installing %s version %s is preferred over all un-accepted alternatives."
-msgstr ""
+msgstr "装 %s 的版本 %s 相比所有未接受的可选项更受偏好。"
 
 #: src/gtk/resolver.cc:460
 #, c-format
 msgid ""
 "Downgrading %s to version %s is preferred over all un-accepted alternatives."
-msgstr ""
+msgstr "降级 %s 到版本 %s 相比所有未接受的可选项更受偏好。"
 
 #: src/gtk/resolver.cc:466
 #, c-format
 msgid ""
 "Upgrading %s to version %s is preferred over all un-accepted alternatives."
-msgstr ""
+msgstr "升级 %s 到版本 %s 相比所有未接受的可选项更受偏好。"
 
 #: src/gtk/resolver.cc:484
 #, c-format
 msgid "Leaving %ls unresolved is rejected."
-msgstr ""
+msgstr "保留 %ls 未解决被拒绝。"
 
 #: src/gtk/resolver.cc:490
 #, c-format
