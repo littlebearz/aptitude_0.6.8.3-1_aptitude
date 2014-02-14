@@ -5038,98 +5038,100 @@ msgstr "编译器：g++ %s\n"
 
 #: src/main.cc:156
 msgid "Compiled against:\n"
-msgstr ""
+msgstr "所用编译器：\n"
 
 #: src/main.cc:157
 #, c-format
 msgid "  apt version %d.%d.%d\n"
-msgstr ""
+msgstr "apt 版本 %d.%d.%d\n"
 
 #: src/main.cc:160
 #, c-format
 msgid "  NCurses version: Unknown\n"
-msgstr ""
+msgstr "  NCurses 版本：未知\n"
 
 #: src/main.cc:162
 #, c-format
 msgid "  NCurses version %s\n"
-msgstr ""
+msgstr "  NCurses 版本：%s\n"
 
 #: src/main.cc:164
 #, c-format
 msgid "  libsigc++ version: %s\n"
-msgstr ""
+msgstr "  libsigc++ 版本：%s\n"
 
 #: src/main.cc:166
 #, c-format
 msgid "  Ept support enabled.\n"
-msgstr ""
+msgstr "  Ept 支持已开启。\n"
 
 #: src/main.cc:168
 #, c-format
 msgid "  Ept support disabled.\n"
-msgstr ""
+msgstr "  Ept 支持已禁用\n"
 
 #: src/main.cc:171
 #, c-format
 msgid "  Gtk+ version %d.%d.%d\n"
-msgstr ""
+msgstr "  Gtk+ 版本 %d.%d.%d\n"
 
 #: src/main.cc:173
 #, c-format
 msgid "  Gtk-- version %d.%d.%d\n"
-msgstr ""
+msgstr "  Gtk-- 版本 %d.%d.%d\n"
 
 #: src/main.cc:176
 #, c-format
 msgid "  Gtk+ support disabled.\n"
-msgstr ""
+msgstr "  Gtk+ 支持已禁用。\n"
 
 #: src/main.cc:179
 #, c-format
 msgid "  Compiled with Qt %s\n"
-msgstr ""
+msgstr "  使用 Qt %s 编译\n"
 
 #: src/main.cc:180
 #, c-format
 msgid "  Running on Qt %s\n"
-msgstr ""
+msgstr "  正在运行于 Qt %s\n"
 
 #: src/main.cc:182
 #, c-format
 msgid "  Qt support disabled.\n"
-msgstr ""
+msgstr "  Qt 支持已禁用\n"
 
 #: src/main.cc:184
 msgid ""
 "\n"
 "Current library versions:\n"
 msgstr ""
+"\n"
+"当前库版本：\n"
 
 #: src/main.cc:185
 #, c-format
 msgid "  NCurses version: %s\n"
-msgstr ""
+msgstr "  NCurses 版本：%s\n"
 
 #: src/main.cc:186
 #, c-format
 msgid "  cwidget version: %s\n"
-msgstr ""
+msgstr "  cwidget 版本：%s\n"
 
 #: src/main.cc:187
 #, c-format
 msgid "  Apt version: %s\n"
-msgstr ""
+msgstr "  Apt 版本：%s\n"
 
 #: src/main.cc:193
 #, c-format
 msgid "Usage: aptitude [-S fname] [-u|-i]"
-msgstr ""
+msgstr "用法： aptitude [-S 文件名] [-u|-i]"
 
 #: src/main.cc:195
 #, c-format
 msgid "       aptitude [options] <action> ..."
-msgstr ""
+msgstr "       aptitude [选项] <动作> ..."
 
 #: src/main.cc:197
 #, c-format
