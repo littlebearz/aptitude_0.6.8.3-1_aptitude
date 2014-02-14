@@ -4898,11 +4898,11 @@ msgstr "未知的分组策略“%s”"
 #: src/load_grouppolicy.cc:324
 #, c-format
 msgid "Terminal policy '%s' should be the last policy in the list"
-msgstr ""
+msgstr "终极策略“%s”应该是列表中的最后一个策略"
 
 #: src/load_grouppolicy.cc:385
 msgid "Unmatched '(' in grouping policy"
-msgstr ""
+msgstr "模式分组策略中不匹配的“(”"
 
 #: src/load_grouppolicy.cc:413
 #, c-format
