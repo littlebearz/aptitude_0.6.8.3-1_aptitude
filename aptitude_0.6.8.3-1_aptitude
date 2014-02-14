@@ -4931,110 +4931,110 @@ msgstr "按状态分组策略不需要参数"
 #: src/load_grouppolicy.cc:460 src/load_grouppolicy.cc:636
 #, c-format
 msgid "Expected '(' after '%s'"
-msgstr ""
+msgstr "“过滤器”之后要有“(”"
 
 #: src/load_grouppolicy.cc:497
 #, c-format
 msgid "Unable to parse pattern at '%s'"
-msgstr ""
+msgstr "无法在“%s”中分析模式"
 
 #: src/load_grouppolicy.cc:502
 msgid "Exactly one filter must be provided as an argument to a 'filter' policy"
-msgstr ""
+msgstr "必须提供一个也只能是一个过滤器的名称作为过滤器策略的参数"
 
 #: src/load_grouppolicy.cc:644
 #, c-format
 msgid "Missing arguments to '%s' grouping policy"
-msgstr ""
+msgstr "缺少关于组策略“％s”的参数"
 
 #: src/load_grouppolicy.cc:667
 #, c-format
 msgid "Unable to parse pattern after \"%s\""
-msgstr ""
+msgstr "无法在“%s”后分析模式"
 
 #: src/load_grouppolicy.cc:705
 #, c-format
 msgid "Unexpectedly empty tree title after \"%s\""
-msgstr ""
+msgstr "“%s”之后出现意外的空白的树型标题"
 
 #: src/load_grouppolicy.cc:724
 #, c-format
 msgid "Expected '{', ')', or ',' following '||', got '%s'"
-msgstr ""
+msgstr "在“||”之后应该是“{”、“)”或“,”，却得到“%s”"
 
 #: src/load_grouppolicy.cc:750
 #, c-format
 msgid "Unmatched '(' in '%s' grouping policy"
-msgstr ""
+msgstr "不对称'('在'%s'组策略"
 
 #: src/load_pkgview.cc:64
 msgid "Couldn't parse layout: No column format specified for static item"
-msgstr ""
+msgstr "无法分析布局：静态项的列宽度未指定"
 
 #: src/load_pkgview.cc:97
 msgid "Couldn't parse layout: encoding error in column descriptor"
-msgstr ""
+msgstr "无法分析布局：列标识符编码错误"
 
 #: src/load_pkgview.cc:118
 #, c-format
 msgid "Couldn't parse layout: unknown view item type \"%s\""
-msgstr ""
+msgstr "无法分析布局：未知的预览项类型“%s”"
 
 #: src/load_pkgview.cc:125 src/load_pkgview.cc:133
 msgid "Couldn't parse layout: no row number specified"
-msgstr ""
+msgstr "无法分析布局：未指定行数"
 
 #: src/load_pkgview.cc:141
 msgid "Couldn't parse layout: no width specified"
-msgstr ""
+msgstr "无法分析布局：未指定宽度"
 
 #: src/load_pkgview.cc:149
 msgid "Couldn't parse layout: no height specified"
-msgstr ""
+msgstr "无法分析布局：未指定高度"
 
 #: src/load_pkgview.cc:180 src/load_pkgview.cc:198
 #, c-format
 msgid "Unknown alignment type '%s'"
-msgstr ""
+msgstr "未知的对齐类型“%s”"
 
 #: src/load_sortpolicy.cc:51 src/load_sortpolicy.cc:64
 #: src/load_sortpolicy.cc:77 src/load_sortpolicy.cc:90
 #, c-format
 msgid "Sorting policy '%s' takes no arguments"
-msgstr ""
+msgstr "排序的策略'%s'不需要参数"
 
 #: src/load_sortpolicy.cc:148
 msgid "Invalid zero-length sorting policy name"
-msgstr ""
+msgstr "无效零长度排序策略名"
 
 #: src/load_sortpolicy.cc:166
 msgid "Unmatched '(' in sorting policy description"
-msgstr ""
+msgstr "排序策略描述中不匹配的“(”"
 
 #: src/load_sortpolicy.cc:193
 #, c-format
 msgid "Invalid sorting policy type '%s'"
-msgstr ""
+msgstr "无效的排序策略类型“%s”"
 
 #: src/main.cc:134
 #, c-format
 msgid "Can't decode multibyte string after \"%ls\""
-msgstr ""
+msgstr "无法对“%ls”之后的多字节字符串进行解码"
 
 #: src/main.cc:143
 #, c-format
 msgid "Can't decode wide-character string after \"%s\""
-msgstr ""
+msgstr "无法对“%s”之后的宽字符串进行解码"
 
 #: src/main.cc:151
 #, c-format
 msgid "%s %s compiled at %s %s\n"
-msgstr ""
+msgstr "%s %s 编译于 %s %s\n"
 
 #: src/main.cc:154
 #, c-format
 msgid "Compiler: g++ %s\n"
-msgstr ""
+msgstr "编译器：g++ %s\n"
 
 #: src/main.cc:156
 msgid "Compiled against:\n"
